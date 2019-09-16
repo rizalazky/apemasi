@@ -7,10 +7,10 @@ $server   = "localhost";
 $username = "root";
 $password = "";
 $database = "dbapemasi";
-$bpsda    = "BPUSDATARU SERCIT";
-$lbpsda   = "Balai SDA Taru Serayu Citanduy";
-$lokasi   = "Purwokerto";
-$web      = "http://bpsda-sercit.jatengprov.go.id";
+$bpsda    = "BPSDA PEMALI COMAL";
+$lbpsda   = "Balai SDA Pemali Comal";
+$lokasi   = "Tegal";
+$web      = "https://bpusdataru-pc.jatengprov.go.id";
 
 // Koneksi dan memilih database di server
 mysql_connect($server,$username,$password) or die("Koneksi gagal");

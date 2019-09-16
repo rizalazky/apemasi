@@ -31,28 +31,8 @@ if ($ketemu > 0){
 }
 else{
 
-   echo "
-  <link href='css/zalstyle.css' rel='stylesheet' type='text/css'>";
-
-  echo "
-  </head>
-  <body class='special-page'>
-  <div id='container'>
-  <section id='error-number'>
-  
-  <img src='img/lock.png'>
-  <h1>LOGIN GAGAL</h1>
-  
-  <p><span class style=\"font-size:14px; color:#ccc;\">Username atau Password anda tidak sesuai.<br>
-  Atau akun anda sedang diblokir.</p></span><br/>
-  
-  </section>
-  
-  <section id='error-text'>
-  <p><a class='button' href='index.php'>   <b>ULANGI LAGI</b>   </a></p>
-  </section>
-  </div>";
-
+  header('location:login.php');
+  $_SESSION['err']='Gagal';
 }
 }
 ?>

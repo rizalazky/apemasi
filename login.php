@@ -74,7 +74,10 @@
     <!-- Main wrapper - style you can find in pages.scss -->
 
     <!-- ============================================================== -->
-
+    <?php
+    session_start();
+    if(!empty($_SESSION['err'])){?>
+    <h1><?php echo $_SESSION['err']; }?></h1>
     <section id="wrapper" class="login-register login-sidebar" style="background-image:url(assets/images/background/login-register.jpg);">
 
         <div class="login-box card">
