@@ -2326,12 +2326,13 @@ body,
 #wb_element_instance493>div {
 	width: 20px;
 	height: 20px;
-	background: #00f7ff;
-	border: 5px solid #000000;
+	background: #4757e2;
+	border: 3px solid #000000;
 	opacity: 0.95;
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
+	margin: -9px 0 0 2px;
 }
 
 #wb_element_instance494 {
@@ -2392,12 +2393,13 @@ body,
 #wb_element_instance496>div {
 	width: 20px;
 	height: 20px;
-	background: #00f7ff;
-	border: 5px solid #000000;
+	background: #4757e2;
+	border: 3px solid #000000;
 	opacity: 0.95;
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
+	margin: 0 0 0 -51px;
 }
 
 #wb_element_instance497 {
@@ -2414,12 +2416,13 @@ body,
 #wb_element_instance497>div {
 	width: 20px;
 	height: 20px;
-	background: #00f7ff;
-	border: 5px solid #000000;
+	background: #4757e2;
+	border: 3px solid #000000;
 	opacity: 0.95;
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
+	margin: 0 0 0 209px;
 }
 
 #wb_element_instance498 {
@@ -2458,12 +2461,13 @@ body,
 #wb_element_instance499>div {
 	width: 20px;
 	height: 20px;
-	background: #00f7ff;
-	border: 5px solid #000000;
+	background: #4757e2;
+	border: 3px solid #000000;
 	opacity: 0.95;
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
+	margin: 0 0 0 -20px;
 }
 
 #wb_element_instance500 {
@@ -2480,12 +2484,7 @@ body,
 #wb_element_instance500>div {
 	width: 20px;
 	height: 20px;
-	background: #00f7ff;
-	border: 5px solid #000000;
-	opacity: 0.95;
-	border-radius: 10px 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px 10px;
+
 }
 
 #wb_element_instance501 {
@@ -2722,12 +2721,13 @@ body,
 #wb_element_instance511>div {
 	width: 20px;
 	height: 20px;
-	background: #00f7ff;
-	border: 5px solid #000000;
+	background: #4757e2;
+	border: 3px solid #000000;
 	opacity: 0.95;
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
+	margin: 138px 0 0 100px;
 }
 
 #wb_element_instance512 {
@@ -10242,6 +10242,13 @@ body,
 	#wb_element_instance493>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: -9px 0 0 2px;
 	}
 
 	#wb_element_instance494 {
@@ -10287,6 +10294,13 @@ body,
 	#wb_element_instance496>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: 0 0 0 -51px;
 	}
 
 	#wb_element_instance497 {
@@ -10302,6 +10316,13 @@ body,
 	#wb_element_instance497>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: 0 0 0 209px;
 	}
 
 	#wb_element_instance498 {
@@ -10320,7 +10341,7 @@ body,
 	}
 
 	#wb_element_instance499 {
-		left: 10px;
+		left: 500px;
 		top: 110px;
 		min-width: 20px;
 		width: 20px;
@@ -10332,6 +10353,13 @@ body,
 	#wb_element_instance499>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: 0 0 0 -100px;
 	}
 
 	#wb_element_instance500 {
@@ -10512,6 +10540,13 @@ body,
 	#wb_element_instance511>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: 138px 0 0 200px;
 	}
 
 	#wb_element_instance512 {
@@ -10522,11 +10557,13 @@ body,
 		min-height: 20px;
 		height: 20px;
 		display: block;
+
 	}
 
 	#wb_element_instance512>div {
 		width: 20px;
 		height: 20px;
+
 	}
 
 	#wb_element_instance513 {
@@ -16004,6 +16041,13 @@ body,
 	#wb_element_instance493>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: -9px 0 0 2px;
 	}
 
 	#wb_element_instance494 {
@@ -16049,6 +16093,13 @@ body,
 	#wb_element_instance496>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: 0 0 0 -51px;
 	}
 
 	#wb_element_instance497 {
@@ -16064,6 +16115,13 @@ body,
 	#wb_element_instance497>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: 0 0 0 209px;
 	}
 
 	#wb_element_instance498 {
@@ -16094,6 +16152,13 @@ body,
 	#wb_element_instance499>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: 0 0 0 -20px;
 	}
 
 	#wb_element_instance500 {
@@ -16109,6 +16174,13 @@ body,
 	#wb_element_instance500>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 80px 80px 80px 80px;
+		-moz-border-radius: 80px 80px 80px 80px;
+		-webkit-border-radius: 80px 80px 80px 80px;
+		margin: 0 0 0 -20px;
 	}
 
 	#wb_element_instance501 {
@@ -16274,6 +16346,13 @@ body,
 	#wb_element_instance511>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: 0 0 0 100px;
 	}
 
 	#wb_element_instance512 {
@@ -21766,6 +21845,13 @@ body,
 	#wb_element_instance493>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: -9px 0 0 2px;
 	}
 
 	#wb_element_instance494 {
@@ -21811,6 +21897,13 @@ body,
 	#wb_element_instance496>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: 0 0 0 -51px;
 	}
 
 	#wb_element_instance497 {
@@ -21826,6 +21919,13 @@ body,
 	#wb_element_instance497>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: 0 0 0 209px;
 	}
 
 	#wb_element_instance498 {
@@ -21856,6 +21956,13 @@ body,
 	#wb_element_instance499>div {
 		width: 20px;
 		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: 0 0 0 -20px;
 	}
 
 	#wb_element_instance500 {
@@ -22036,6 +22143,15 @@ body,
 	#wb_element_instance511>div {
 		width: 20px;
 		height: 20px;
+		width: 20px;
+		height: 20px;
+		background: #4757e2;
+		border: 3px solid #000000;
+		opacity: 0.95;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		margin: 138px 0 0 100px;
 	}
 
 	#wb_element_instance512 {
