@@ -65,20 +65,20 @@ $sal3 = mysql_fetch_array(mysql_query("SELECT id,q_diberikan FROM `alokasi` WHER
 </div><div id="wb_element_instance4" class="wb_element"><a class="wb_button" href="http://sisdasercit.com"><span>Kembali ke Web</span></a></div><div id="wb_element_instance5" class="wb_element"><a class="wb_button" href="../"><span>kembali ke Portal</span></a></div><div id="wb_element_instance6" class="wb_element"><a class="wb_button" href="http://sisdasercit.com/apemasi/"><span>Login Petugas</span></a></div><div id="wb_element_instance7" class="wb_element" style=" line-height: normal;"><h3 class="wb-stl-heading3"><b><span style="color:#ffffff;">BALAI PU SDA TARU&nbsp;SERAYU CITANDUY</span></b></h3>
 </div></div>
 <div class="vbox wb_container" id="wb_main">
-	
-<div id="wb_element_instance8" class="wb_element wb_element_shape"><div class="wb_shp"></div></div><div id="wb_element_instance9" class="wb_element" style=" line-height: normal;"><h3 class="wb-stl-heading3" style="text-align: center;"><strong>SKEMA DISTRIBUSI AIR DAERAH IRIGASI SERAYU</strong></h3>
-</div><div id="wb_element_instance10" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>Sungai&nbsp;</strong></p>
-</div><div id="wb_element_instance11" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>Areal</strong></p>
-</div><div id="wb_element_instance12" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>:&nbsp; Sungai Serayu</strong></p>
-</div><div id="wb_element_instance13" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>:&nbsp; 20.795 Ha</strong></p>
-</div><div id="wb_element_instance14" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>Lokasi&nbsp;</strong></p>
-</div><div id="wb_element_instance15" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>:&nbsp; Gambarsari, Banyumas</strong></p>
-</div><div id="wb_element_instance16" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>Periode</strong></p>
-</div><div id="wb_element_instance17" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>:&nbsp; <?php echo $periode;?></strong></p>
-</div><div id="wb_element_instance18" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;"><strong>Debit Tersedia</strong></p>
-</div><div id="wb_element_instance19" class="wb_element wb_element_shape"><div class="wb_shp"></div></div><div id="wb_element_instance20" class="wb_element wb_element_shape"><div class="wb_shp"></div></div><div id="wb_element_instance21" class="wb_element wb_element_shape"><div class="wb_shp"></div></div><div id="wb_element_instance22" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;"><strong>Debit Diperlukan</strong></p>
-</div><div id="wb_element_instance23" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;"><strong>Faktor K</strong></p>
-
+	<!-- GARIS BIRU ATAS -->
+			<div id="wb_element_instance8" class="wb_element wb_element_shape"><div class="wb_shp"></div></div><div id="wb_element_instance9" class="wb_element" style=" line-height: normal;"><h3 class="wb-stl-heading3" style="text-align: center;"><strong>SKEMA DISTRIBUSI AIR DAERAH IRIGASI SERAYU</strong></h3>
+			</div><div id="wb_element_instance10" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>Sungai&nbsp;</strong></p>
+			</div><div id="wb_element_instance11" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>Areal</strong></p>
+			</div><div id="wb_element_instance12" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>:&nbsp; Sungai Serayu</strong></p>
+			</div><div id="wb_element_instance13" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>:&nbsp; 20.795 Ha</strong></p>
+			</div><div id="wb_element_instance14" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>Lokasi&nbsp;</strong></p>
+			</div><div id="wb_element_instance15" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>:&nbsp; Gambarsari, Banyumas</strong></p>
+			</div><div id="wb_element_instance16" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>Periode</strong></p>
+			</div><div id="wb_element_instance17" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>:&nbsp; <?php echo $periode;?></strong></p>
+			</div><div id="wb_element_instance18" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;"><strong>Debit Tersedia</strong></p>
+			</div><div id="wb_element_instance19" class="wb_element wb_element_shape"><div class="wb_shp"></div></div><div id="wb_element_instance20" class="wb_element wb_element_shape"><div class="wb_shp"></div></div><div id="wb_element_instance21" class="wb_element wb_element_shape"><div class="wb_shp"></div></div><div id="wb_element_instance22" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;"><strong>Debit Diperlukan</strong></p>
+			</div><div id="wb_element_instance23" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;"><strong>Faktor K</strong></p>
+	<!-- INI BATASNYA -->
 <p class="wb-stl-normal" style="text-align: center;"><strong>ditetapkan</strong></p>
 </div><div id="wb_element_instance24" class="wb_element" style=" line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: right;"><?php echo $debit['debit'];?></h4>
 </div><div id="wb_element_instance25" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal"><strong>m3/dtk</strong></p>

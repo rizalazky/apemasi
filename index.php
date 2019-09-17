@@ -22,7 +22,7 @@
 
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo-jateng.png">
 
-    <title>.:: SCRIT ::.</title>
+    <title>Sistem Informasi SDA Pemali Comal</title>
 
     <!-- Bootstrap Core CSS -->
 
@@ -55,7 +55,7 @@
 <body class="fix-header card-no-border logo-center">
 
     <div id="main-wrapper">
-
+<!-- 
         <header class="topbar">
 
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
@@ -64,15 +64,15 @@
 
                     <a class="navbar-brand" href="index.html">
 
-                            <img src="assets/images/logo-utama.png" alt="homepage" class="dark-logo" />
+                            <img src="assets/images/pemalicomal.png" alt="homepage" class="dark-logo" />
 
                             <!-- Light Logo icon -->
 
-                            <img src="assets/images/logo-utama.png" alt="homepage" class="light-logo" />
+                            <!-- <img src="assets/images/pemalicomal.png" alt="homepage" class="light-logo" />
 
                         </b>
 
-                </div>
+                </div> -->
 
                 <!-- ============================================================== -->
 
@@ -80,12 +80,12 @@
 
                 <!-- ============================================================== -->
 
-                <div class="navbar-collapse">
+                <!-- <div class="navbar-collapse">
                     <ul class="navbar-nav mr-auto mt-md-0">
 
-                        <!-- This is  -->
+                        This is 
 
-                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="mdi mdi-menu"></i></a> </li>
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i class=""></i></a> </li>
 
                     </ul>
 
@@ -94,15 +94,15 @@
                         <li class="navbar-collapse">
 
                             <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="assets/images/jateng-gayeng.png" alt="user"/>
+                                <img src="assets/images/jateng-gayeng.png" alt="jateng-gayeng"/>
                             </a>
 
-                            <!-- <span>
+                            <!- <span>
                                 <img src="../assets/images/jateng-gayeng.png" class="dark-logo" />
-                                <!-- <img src="../assets/images/jateng-gayeng.png" class="light-logo" alt="homepage" /></span> -->
+                                <!- <img src="../assets/images/jateng-gayeng.png" class="light-logo" alt="homepage" /></span> -->
                             <!-- </span> -->
   
-                        </li>
+                        <!-- </li>
 
                     </ul>
 
@@ -110,15 +110,17 @@
 
             </nav>
 
-        </header>
+        </header> -->
 
         
         <div class="page-wrapper">
             
-            <div class="col-md-12">
+            <div class="col-md-12 col-lg-12 col-xlg-12">
+                
                 <div class="logo text-center">
-                    <h1> E - BPSDA PEMALI COMAL </h1>
-                    <span>Balai Sumber Daya Air Pemali Comal</span><br>
+                    <img src="assets/images/log-jateng.png" alt="user"/><br>
+                    <h1> E - SISDA PEMALI COMAL </h1>
+                    <span>Balai Pengelolaan Sumber Daya Air Pemali Comal</span><br>
                     <span>Jl. Dr. Sutomo No. 53 Pemali Comal, Pekauman, Kec. Tegal Bar., Kota Tegal, Jawa Tengah 52112</span>
                 </div>
 
@@ -126,13 +128,12 @@
 
             <div class="row page-titles">
 
-
-            </div>
-
-            <div class="container-fluid">
-
-                <div class="row">
-                    <div class="col-md-12">
+                
+            <div class="row">
+                    <div class="col-xs-2 col-md-2">
+                        
+                    </div>
+                        <div class="col-xs-8 col-md-12">
 
                         <!-- <h4 class="card-title">With indicators</h4>
 
@@ -154,19 +155,19 @@
 
                                         <div class="carousel-item">
 
-                                            <img class="img-responsive" src="assets/images/big/img3.jpg" alt="First slide">
+                                            <img class="img-responsive" src="assets/images/petani.jpg" alt="First slide">
 
                                     </div>
 
                                      <div class="carousel-item active">
 
-                                            <img class="img-responsive" src="assets/images/big/img4.jpg" alt="Second slide">
+                                            <img class="img-responsive" src="assets/images/bdg2.png" alt="Second slide">
 
                                      </div>
 
                                     <div class="carousel-item">
 
-                                             <img class="img-responsive" src="assets/images/big/img5.jpg" alt="Third slide">
+                                             <img class="img-responsive" src="assets/images/waduk-cacaban.jpg" alt="Third slide">
 
                                      </div>
 
@@ -189,14 +190,18 @@
                                 </a>
 
                         </div>
+            </div>
 
-                    </div>
+            <div class="container-fluid">
+
+
+             </div>
 <!-- pemisah1 -->
                             
 <!-- p2 -->
                             <div class="container-fluid">
 
-                                <div class="row text-center m-t-40">
+                                <div class="row text-center m-b-10">
 
                                     <div class="col-lg-3 col-md-6 m-b-40 m-t-30">
                                         <div class="card card-outline-inverse">
@@ -254,7 +259,7 @@
                                         <div class="card card-outline-inverse">
                                             <div class="card-body">
                                                 <p>Publikasi Alokasi Air</p>
-                                                <a href="#" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Publikasi Alokasi Air"><i class="mdi mdi-wrench"></i></a>
+                                                <a href="distribusiair" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Publikasi Alokasi Air"><i class="mdi mdi-wrench"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -278,84 +283,47 @@
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6 col-lg-6 col-xlg-4">
+                    <div class="col-md-12 col-lg-6 col-xlg-4">
+                        
+                            <div class="card card-body">
 
-                        <div class="card card-body">
+                                <div class="row">
 
-                            <div class="row">
+                                    <div class="col-md-4 col-lg-3 text-center">
 
-                                <div class="col-md-4 col-lg-3 text-center">
+                                        <a href="app-contact-detail.html"><img src="assets/images/users/1.jpg" alt="user" class="img-circle img-responsive"></a>
 
-                                    <a href="app-contact-detail.html"><img src="assets/images/users/1.jpg" alt="user" class="img-circle img-responsive"></a>
+                                    </div>
 
-                                </div>
+                                    <div class="col-md-8 col-lg-9">
 
-                                <div class="col-md-8 col-lg-9">
+                                        <h3 class="box-title m-b-0">Ari Doe</h3> <small>Web Designer</small>
 
-                                    <h3 class="box-title m-b-0">Ari Doe</h3> <small>Web Designer</small>
+                                            <address>
 
-                                        <address>
+                                                SLAWI, TEGAL JAWA TENGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH
 
-                                            SLAWI, TEGAL JAWA TENGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH
+                                                    <br>
 
-                                                <br>
+                                                    <br>
 
-                                                <br>
+                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
 
-                                                <abbr title="Phone">P:</abbr> (123) 456-7890
+                                            </address>
 
-                                        </address>
-
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
                     <!-- 1 -->
-                    <div class="col-md-6 col-lg-6 col-xlg-4">
-
-                        <div class="card card-body">
-
-                            <div class="row">
-
-                                <div class="col-md-4 col-lg-3 text-center">
-
-                                    <a href="app-contact-detail.html"><img src="assets/images/users/2.jpg" alt="user" class="img-circle img-responsive"></a>
-
-                                </div>
-
-                                <div class="col-md-8 col-lg-9">
-
-                                    <h3 class="box-title m-b-0">Johnathan Doe</h3> <small>Web Designer</small>
-
-                                    <address>
-
-                                        795 Folsom Ave, Suite 600 San Francisco, CADGE 94107
-
-                                        <br>
-
-                                        <br>
-
-                                        <abbr title="Phone">P:</abbr> (123) 456-7890
-
-                                    </address>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
+                   
                 </div>
-            </div>
-
-            
-
+    </div>
 
 <!-- barbawah -->
             <footer class="footer">
 
-                © 2019 BOCAH MEDOK......
+                © 2019 E-SISDA PEMALI COMAL
 
             </footer>
 

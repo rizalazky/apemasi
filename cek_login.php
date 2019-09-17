@@ -30,9 +30,7 @@ if ($ketemu > 0){
   header('location:media.php?module=home');
 }
 else{
-
-  header('location:login.php');
-  $_SESSION['err']='Gagal';
+  echo "<script>alert('Maaf,Username dan Password Salah'); window.location = 'login.php'</script>";
 }
 }
 ?>

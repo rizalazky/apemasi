@@ -74,10 +74,7 @@
     <!-- Main wrapper - style you can find in pages.scss -->
 
     <!-- ============================================================== -->
-    <?php
-    session_start();
-    if(!empty($_SESSION['err'])){?>
-    <h1><?php echo $_SESSION['err']; }?></h1>
+
     <section id="wrapper" class="login-register login-sidebar" style="background-image:url(assets/images/background/login-register.jpg);">
 
         <div class="login-box card">
@@ -86,7 +83,7 @@
 
                 <form class="form-horizontal form-material" id="login-form" action="cek_login.php" method="post">
 
-                    <a href="javascript:void(0)" class="text-center db"><img src="assets/images/logo-utama.png" alt="Home" /><br/></a>
+                    <a href="javascript:void(0)" class="text-center db"><img src="assets/images/login-sisda.png" alt="Home" /><br/></a>
 
                     <div class="form-group m-t-40">
                         <div class="logo text-center">
