@@ -113,7 +113,7 @@
         </header> -->
 
         
-        <div class="page-wrapper">
+        <div class="page-wrapper p-b-30">
             
             <div class="col-md-12 col-lg-12 col-xlg-12">
                 
@@ -121,7 +121,7 @@
                     <img src="assets/images/log-jateng.png" alt="user"/><br>
                     <h1> E - SISDA PEMALI COMAL </h1>
                     <span>Balai Pengelolaan Sumber Daya Air Pemali Comal</span><br>
-                    <span>Jl. Dr. Sutomo No. 53 Pemali Comal, Pekauman, Kec. Tegal Bar., Kota Tegal, Jawa Tengah 52112</span>
+                    <span>Jl. Dr. Sutomo No. 53 Pemali Comal, Kel. Pekauman, Kec. Tegal Barat, Kota Tegal, Jawa Tengah 52112</span>
                 </div>
 
             </div>
@@ -160,8 +160,8 @@
                                     </div>
 
                                      <div class="carousel-item active">
-
-                                            <img class="img-responsive" src="assets/images/bdg2.png" alt="Second slide">
+                                            
+                                            <img class="img-responsive" src="assets/images/gabungan.jpg" alt="Second slide">
 
                                      </div>
 
@@ -192,10 +192,10 @@
                         </div>
             </div>
 
-            <div class="container-fluid">
+            <!-- <div class="container-fluid">
 
 
-             </div>
+             </div> -->
 <!-- pemisah1 -->
                             
 <!-- p2 -->
@@ -204,34 +204,34 @@
                                 <div class="row text-center m-b-10">
 
                                     <div class="col-lg-3 col-md-6 m-b-40 m-t-30">
-                                        <div class="card card-outline-inverse">
+                                        <div class="card card-outline-inverse" style="background-color:#189bed; border-color:#189bed;">
                                             <div class="card-body">
-                                                <p>Hidrology Bank Data</p>
-                                                <a href="#" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Hidrology Bank Data"><i class="mdi mdi-water"></i></a>
+                                                <p style="color: #fafafa">Hidrology Bank Data</p>
+                                                <a href="#" class="btn waves-effect btn-lg btn-secondary" style="background-color:#1693e0; border-color:#1693e0; margin: 5px;" title="Hidrology Bank Data"><i class="mdi mdi-lg mdi-water"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-6 m-t-30">
-                                        <div class="card card-outline-inverse">
+                                        <div class="card card-outline-inverse" style="background-color: #35db64; border-color: #35db64;">
                                             <div class="card-body">
-                                                <p>Task Progression 2019</p>
-                                                <a href="#" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Task Progression 2019"><i class="fa fa-bar-chart-o"></i></a>
+                                                <p style="color: #fafafa">Task Progression 2019</p>
+                                                <a href="#" class="btn waves-effect waves-light btn-lg btn-secondary" style="background-color:#32d15f; border-color:#32d15f; margin: 5px;" title="Task Progression 2019"><i class="fa fa-bar-chart-o"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-6 m-t-30">
-                                        <div class="card card-outline-inverse">
+                                        <div class="card card-outline-inverse" style="background-color: #eb964b; border-color: #eb964b;">
                                             <div class="card-body">
-                                                <p>APEMASI</p>
-                                                <a href="login.php" class="btn btn-lg btn-secondary" style="margin: 5px;" title="APEMASI"><i class="fa fa-gears"></i></a>
+                                                <p style="color: #fafafa">APEMASI</p>
+                                                <a href="login.php" class="btn waves-effect waves-light btn-lg btn-secondary" style="background-color:#de8e47; border-color:#de8e47; margin: 5px;" title="APEMASI"><i class="fa fa-gears"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-6 m-t-30">
-                                        <div class="card card-outline-inverse">
+                                        <div class="card card-outline-inverse" style="background-color: #39ccd4; border-color: #39ccd4;">
                                             <div class="card-body">
-                                                <p style="font-size: 14.5px;">E-Surat</p>
-                                                <a href="#" class="btn btn-lg btn-secondary" style="margin: 5px;" title="E-Surat"><i class="mdi mdi-email"></i></a>
+                                                <p style="font-size: 14.5px; color: #fafafa">E-Surat</p>
+                                                <a href="#" class="btn waves-effect waves-light btn-lg btn-secondary" style="background-color:#31b5bd; border-color:#31b5bd; margin: 5px;" title="E-Surat"><i class="mdi mdi-email"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -240,34 +240,34 @@
                                 <div class="row m-b-40 text-center">
 
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="card card-outline-inverse">
-                                            <div class="card-body">
-                                                <p>Manajemen Aset Pemprov Jateng</p>
-                                                <a href="" class="btn btn-lg btn-secondary" style="pading: 5px;" title="Manajemen Aset Pemprov Jateng"><i class="fa fa-spin fa-cog"></i></a>
+                                        <div class="card card-outline-inverse" style="background-color: #e3de4f; border-color: #e3de4f;">
+                                            <div class="card-body"> 
+                                                <p style="font-size: 14.48px; color: #fafafa">Manajemen Aset Pemprov Jateng</p>
+                                                <a href="" class="btn btn-lg btn-secondary" style="background-color:#d9d44a; border-color:#d9d44a; margin: 2px;" title="Manajemen Aset Pemprov Jateng"><i class="fa fa-spin fa-cog"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="card card-outline-inverse">
+                                        <div class="card card-outline-inverse" style="background-color: #eb4f46; border-color: #eb4f46;">
                                             <div class="card-body">
-                                                <p>Sistem Informasi Pegawai</p>
-                                                <a href="#" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Sistem Informasi Pegawai"><i class="fa fa-institution"></i></a>
+                                                <p style="color: #fafafa" >Sistem Informasi Pegawai</p>
+                                                <a href="#" class="btn btn-lg btn-secondary" style="background-color: #e64b43; border-color: #e64b43; margin: 5px;" title="Sistem Informasi Pegawai"><i class="fa fa-institution"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="card card-outline-inverse">
+                                        <div class="card card-outline-inverse" style="background-color: #59e3b2; border-color: #59e3b2;">
                                             <div class="card-body">
-                                                <p>Publikasi Alokasi Air</p>
-                                                <a href="distribusiair" class="btn btn-lg btn-secondary" style="margin: 5px;" title="Publikasi Alokasi Air"><i class="mdi mdi-wrench"></i></a>
+                                                <p style="color: #fafafa">Publikasi Alokasi Air</p>
+                                                <a href="distribusiair" class="btn btn-lg btn-secondary" style="background-color: #54d6a8; border-color: #54d6a8; margin: 5px;" title="Publikasi Alokasi Air"><i class="mdi mdi-wrench"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="card card-inverse">
+                                        <div class="card card-inverse" style="background-color: #7e7dbd; border-color: #7e7dbd;">
                                             <div class="card-body">
-                                                <p>Maps Layer Bank</p>
-                                                <a href="#" class="btn btn-lg btn-secondary " style="margin: 5px;" title="Maps Layer Bank" class="fa fa-globe"><i class="fa fa-globe"></i></a>
+                                                <p style="color: #fafafa">Maps Layer Bank</p>
+                                                <a href="#" class="btn btn-lg btn-secondary " style="background-color: #7877b5; border-color: #7877b5;margin: 5px;" title="Maps Layer Bank" class="fa fa-globe"><i class="fa fa-globe"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -291,23 +291,23 @@
 
                                     <div class="col-md-4 col-lg-3 text-center">
 
-                                        <a href="app-contact-detail.html"><img src="assets/images/users/1.jpg" alt="user" class="img-circle img-responsive"></a>
+                                        <a href="app-contact-detail.html"><img src="assets/images/kantor.jpg" alt="user" class="img-circle img-responsive"></a>
 
                                     </div>
 
                                     <div class="col-md-8 col-lg-9">
 
-                                        <h3 class="box-title m-b-0">Ari Doe</h3> <small>Web Designer</small>
+                                        <h3 class="box-title m-b-0">Balai PSDA Pemali Comal</h3> <small>Kantor pemerintahan wilayah di Tegal, Jawa Tengah</small>
 
                                             <address>
 
-                                                SLAWI, TEGAL JAWA TENGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH
+                                            <!-- Jl. Dr. Sutomo No. 53 Pemali Comal, Pekauman, Kec. Tegal Bar., Kota Tegal, Jawa Tengah 52112 -->
 
                                                     <br>
-
+                                                    <abbr title="Phone">SMS</abbr> 081380851223
                                                     <br>
 
-                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                                                    <abbr title="Phone">PHONE</abbr> (123) 456-7890
 
                                             </address>
 

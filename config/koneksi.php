@@ -10,7 +10,7 @@ $database = "dbapemasi";
 $bpsda    = "BPSDA PEMALI COMAL";
 $lbpsda   = "Balai SDA Pemali Comal";
 $lokasi   = "Tegal";
-$web      = "https://bpusdataru-pc.jatengprov.go.id";
+$web      = "https://pemalicomal.com";
 
 // Koneksi dan memilih database di server
 mysql_connect($server,$username,$password) or die("Koneksi gagal");

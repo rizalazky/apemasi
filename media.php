@@ -22,29 +22,29 @@ function akses_salah(){
 }
 
 if (empty($_SESSION['username']) AND empty($_SESSION['passuser'])){
+  echo "err";
+  // echo "
+  // <link href='css/zalstyle.css' rel='stylesheet' type='text/css'>";
 
-  echo "
-  <link href='css/zalstyle.css' rel='stylesheet' type='text/css'>";
-
-  echo "
-  </head>
-  <body class='special-page'>
-  <div id='container'>
-  <section id='error-number'>
+  // echo "
+  // </head>
+  // <body class='special-page'>
+  // <div id='container'>
+  // <section id='error-number'>
   
-  <img src='img/lock.png'>
-  <h1>AKSES ILEGAL</h1>
+  // <img src='img/lock.png'>
+  // <h1>AKSES ILEGAL</h1>
   
-  <p><span class style=\"font-size:14px; color:#ccc;\">
-  Maaf, untuk masuk Halaman Administrator
-  anda harus Login dahulu!</p></span><br/>
+  // <p><span class style=\"font-size:14px; color:#ccc;\">
+  // Maaf, untuk masuk Halaman Administrator
+  // anda harus Login dahulu!</p></span><br/>
   
-  </section>
+  // </section>
   
-  <section id='error-text'>
-  <p><a class='button' href='index.php'>   <b>LOGIN DI SINI</b>   </a></p>
-  </section>
-  </div>";
+  // <section id='error-text'>
+  // <p><a class='button' href='index.php'>   <b>LOGIN DI SINI</b>   </a></p>
+  // </section>
+  // </div>";
   
 }
 else{
@@ -182,7 +182,7 @@ $(function(){
   </div>
   <div class="shadow-bottom shadow-titlebar"></div>
   <?php include "content.php"; ?>
-  <div class="text-center">© Copyright 2015 - <?php $t=date("Y"); echo $t;?> SISDA Balai PUSDATARU PEMALI COMALL </div>
+  <div class="text-center">© Copyright 2019 - <?php $t=date("Y"); echo $t;?> SISDA Balai PUSDATARU PEMALI COMALL </div>
   </div>
   
   <script src="js/jquery.min.js"></script> 

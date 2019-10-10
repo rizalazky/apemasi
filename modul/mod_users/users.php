@@ -1,4 +1,382 @@
-<?php $_F=__FILE__;$_X='Pz48c2NyNHB0Pg0KZjNuY3Q0Mm4gYzJuZjRybWQ1bDV0NShkNWxVcmwpIHsNCiAgIDRmIChjMm5mNHJtKCJBbmQxIHkxazRuIDRuZzRuIG01bmdoMXAzcz8iKSkgew0KICAgICAgZDJjM201bnQubDJjMXQ0Mm4gPSBkNWxVcmw7DQogICB9DQp9DQo8L3NjcjRwdD4NCg0KDQo8P3BocCAgICANCnM1c3M0Mm5fc3QxcnQoKTsNCi8vRDV0NWtzNCBoMW55MSBiNHMxIGQ0NG5jbDNkNSwgdDRkMWsgYjRzMSBsMW5nczNuZyBkNGIzazEgKGQ0cjVjdCAycDVuKQ0KNGYoYzIzbnQoZzV0XzRuY2wzZDVkX2Y0bDVzKCkpPT02KQ0Kew0KCTVjaDIgIjxtNXQxIGh0dHAtNXEzNHY9J3I1ZnI1c2gnIGMybnQ1bnQ9JzA7IDNybD1odHRwOi8vJF9TRVJWRVJbSFRUUF9IT1NUXSc+IjsNCgk1eDR0KCJENHI1Y3QgMWNjNXNzIG4ydCBwNXJtNHR0NWQuIik7DQp9DQogNGYgKDVtcHR5KCRfU0VTU0lPTlsnM3M1cm4xbTUnXSkgQU5EIDVtcHR5KCRfU0VTU0lPTlsncDFzczNzNXInXSkpew0KICA1Y2gyICI8bDRuayBocjVmPSdzdHlsNS5jc3MnIHI1bD0nc3R5bDVzaDU1dCcgdHlwNT0ndDV4dC9jc3MnPg0KIDxjNW50NXI+VW50M2sgbTVuZzFrczVzIG0yZDNsLCBBbmQxIGgxcjNzIGwyZzRuIDxicj4iOw0KICA1Y2gyICI8MSBocjVmPS4uLy4uLzRuZDV4LnBocD48Yj5MT0dJTjwvYj48LzE+PC9jNW50NXI+IjsNCn0NCjVsczV7DQoNCi8vYzVrIGgxayAxa3M1cyAzczVyDQokYzVrPTNzNXJfMWtzNXMoJF9HRVRbbTJkM2w1XSwkX1NFU1NJT05bczVzczRkXSk7DQo0ZigkYzVrPT02IE9SICRfU0VTU0lPTltsNXY1bDNzNXJdPT0nMWRtNG4nKXsNCg0KDQokMWtzND0ibTJkM2wvbTJkXzNzNXJzLzFrczRfM3M1cnMucGhwIjsNCnN3NHRjaCgkX0dFVFsxY3RdKXsNCiAgLy8gVDFtcDRsIFVzNXINCiAgZDVmMTNsdDoNCjVjaDIgIiI7DQoNCiAgICA0ZiAoNW1wdHkoJF9HRVRbJ2sxdDEnXSkpew0KCQ0KCQ0KICAgNWNoMiAiDQogICAgIA0KICAgPGQ0diA0ZD0nbTE0bi1jMm50NW50Jz4NCiAgIDxkNHYgY2wxc3M9J2MybnQxNG41cl82YSc+DQogICA8ZDR2IGNsMXNzPWdyNGRfNmE+IA0KICAgPGJyLz4NCiAgIDwxIGhyNWY9Jz9tMmQzbDU9M3M1ciYxY3Q9dDFtYjFoM3M1cicgY2wxc3M9J2IzdHQybic+DQogICA8c3Axbj5UMW1iMWhrMW4gVXM1cjwvc3Axbj4NCiAgIDwvMT48L2Q0dj4NCiAgDQogICA8ZDR2IGNsMXNzPSdncjRkXzZhJz4NCiAgIDxkNHYgY2wxc3M9J2JsMmNrLWIycmQ1cic+DQogICA8ZDR2IGNsMXNzPSdibDJjay1oNTFkNXInPg0KICAgPGg2PlBFUkFOR0tBVCBERVNBPC9oNj4NCiAgIDxzcDFuPjwvc3Axbj4gDQogICA8L2Q0dj4NCiAgIDxkNHYgY2wxc3M9J2JsMmNrLWMybnQ1bnQnPg0KCQkgIA0KICAgPHQxYmw1IDRkPSd0MWJsNS01eDFtcGw1JyBjbDFzcz0ndDFibDUnPg0KCQkgIA0KICAgPHRoNTFkPjx0cj4NCiAgDQogICA8dGg+TjIuPC90aD4gDQogICA8dGg+VXM1cm4xbTU8L3RoPiANCiAgIDx0aD5OMW0xIEw1bmdrMXA8L3RoPiANCiAgIDx0aD5KMWIxdDFuPC90aD4NCiAgIDx0aD5OIEkgUDwvdGg+DQogICA8dGg+RjJ0MjwvdGg+DQogICA8dGg+QmwyazRyPC90aD4gDQogICA8dGg+QWtzNDwvdGg+DQogICA8L3RyPiANCiAgIDwvdGg1MWQ+DQogICA8dGIyZHk+IjsNCg0KICAgICRwICAgICAgPSBuNXcgUDFnNG5nOw0KICAgICRiMXQxcyAgPSA2aTsNCiAgICAkcDJzNHM0ID0gJHAtPmMxcjRQMnM0czQoJGIxdDFzKTsNCg0KICAgNGYgKCRfU0VTU0lPTltsNXY1bDNzNXJdPT0nMWRtNG4nKXsNCiAgICAgICR0MW1wNGwgPSBteXNxbF9xMzVyeSgiU0VMRUNUICogRlJPTSAzczVycyBPUkRFUiBCWSA0ZF9zNXNzNDJuIERFU0MgTElNSVQgJHAyczRzNCwkYjF0MXMiKTsNCiAgICB9DQogICAgNWxzNXsNCiAgICAgICR0MW1wNGw9bXlzcWxfcTM1cnkoIlNFTEVDVCAqIEZST00gM3M1cnMgV0hFUkUgM3M1cm4xbTU9JyRfU0VTU0lPTltuMW0xM3M1cl0nIik7DQogICAgfQ0KICANCiAgICAkbjIgPSAkcDJzNHM0KzY7DQogICAgd2g0bDUoJHI9bXlzcWxfZjV0Y2hfMXJyMXkoJHQxbXA0bCkpew0KICAgICRsNWIxcj1zdHJsNW4oJG4yKTsNCiAgICBzdzR0Y2goJGw1YjFyKXsNCiAgICAgIGMxczUgNjoNCiAgICAgIHsNCiAgICAgICAgJGc9IjAiLiRuMjsNCiAgICAgICAgYnI1MWs7ICAgICANCiAgICAgIH0NCiAgICAgIGMxczUgYToNCiAgICAgIHsNCiAgICAgICAgJGc9JG4yOw0KICAgICAgICBicjUxazsgICAgIA0KICAgICAgfSAgICAgIA0KICAgIH0gDQoJDQogICA1Y2gyICI8dHIgY2wxc3M9Z3IxZDVYPiANCiAgIA0KICAgPHRkIHc0ZHRoPTYwPjxjNW50NXI+JGc8L2M1bnQ1cj48L3RkPg0KICAgPHRkPiRyWzNzNXJuMW01XTwvdGQ+DQogICA8dGQ+JHJbbjFtMV9sNW5nazFwXTwvdGQ+DQogICA8dGQ+JHJbajFiMXQxbl08L3RkPg0KICAgPHRkPiRyW240cF08L3RkPg0KICAgPHRkPjxjNW50NXI+PDRtZyBzcmM9J2YydDJfM3M1ci9zbTFsbF8kcltmMnQyXScgdzRkdGg9aTA+PC9jNW50NXI+PC90ZD4NCiAgIDx0ZCAxbDRnbj1jNW50NXI+PGM1bnQ1cj4kcltibDJrNHJdPC9jNW50NXI+PC90ZD4NCiAgIA0KICAgPHRkIHYxbDRnbj1tNGRkbDU+PDEgaHI1Zj0/bTJkM2w1PTNzNXImMWN0PTVkNHQzczVyJjRkPSRyWzRkX3M1c3M0Mm5dIHI1bD10MjJsdDRwLXQycCB0NHRsNT0nRWQ0dCcgY2wxc3M9J3c0dGgtdDRwJz4NCiAgIDxjNW50NXI+PDRtZyBzcmM9JzRtZy81ZDR0LnBuZyc+PC9jNW50NXI+PC8xPiANCiAgIA0KICAgPC90ZD4gPC90cj4gIjsNCiAgDQogICAgJG4yKys7IH0NCgkNCiAgIDVjaDIgIjwvdGIyZHk+PC90MWJsNT4gIjsNCg0KICAgYnI1MWs7ICB9DQoNCiAgDQogIA0KICAgYzFzNSAidDFtYjFoM3M1ciI6DQogICA0ZiAoJF9TRVNTSU9OW2w1djVsM3M1cl09PScxZG00bicpew0KICAgNWNoMiAiDQogICA8ZDR2IDRkPSdtMTRuLWMybnQ1bnQnPg0KICAgPGQ0diBjbDFzcz0nYzJudDE0bjVyXzZhJz4NCg0KICAgPGQ0diBjbDFzcz0nZ3I0ZF82YSc+DQogICA8ZDR2IGNsMXNzPSdibDJjay1iMnJkNXInPg0KICAgPGQ0diBjbDFzcz0nYmwyY2staDUxZDVyJz4NCiAgIA0KICAgPGg2PlRBTUJBSCBVU0VSPC9oNj4NCiAgIDwvZDR2Pg0KICAgPGQ0diBjbDFzcz0nYmwyY2stYzJudDVudCc+DQogICANCiAgIDxmMnJtIG01dGgyZD1QT1NUIDFjdDQybj0nJDFrczQ/bTJkM2w1PTNzNXImMWN0PTRucDN0JyA1bmN0eXA1PSdtM2x0NHAxcnQvZjJybS1kMXQxJz4NCgkgIA0KICAgPHAgY2wxc3M9NG5sNG41LXNtMWxsLWwxYjVsPiANCiAgIDxsMWI1bCBmMnI9ZjQ1bGR1PlVzNXJuMW01PC9sMWI1bD4NCiAgIDw0bnAzdCB0eXA1PXQ1eHQgbjFtNT0nM3M1cm4xbTUnIHM0ejU9aTA+DQogICA8L3A+IA0KCSAJICANCiAgIDxwIGNsMXNzPTRubDRuNS1zbTFsbC1sMWI1bD4gDQogICA8bDFiNWwgZjJyPWY0NWxkdT5QMXNzdzJyZDwvbDFiNWw+DQogICA8NG5wM3QgdHlwNT10NXh0IG4xbTU9J3Axc3N3MnJkJyAgczR6NT1pMD4NCiAgIDwvcD4gDQoNCiAgIDxwIGNsMXNzPTRubDRuNS1zbTFsbC1sMWI1bD4gDQogICA8bDFiNWwgZjJyPWY0NWxkdT5OMW0xIEw1bmdrMXA8L2wxYjVsPg0KICAgPDRucDN0IHR5cDU9dDV4dCBuMW01PSduMW0xX2w1bmdrMXAnIHM0ejU9aTA+DQogICA8L3A+IA0KCSAJICANCiAgIDxwIGNsMXNzPTRubDRuNS1zbTFsbC1sMWI1bD4gDQogICA8bDFiNWwgZjJyPWY0NWxkdT5KMWIxdDFuPC9sMWI1bD4NCiAgIDw0bnAzdCB0eXA1PXQ1eHQgbjFtNT0najFiMXQxbicgczR6NT1pMD4NCiAgIDwvcD4gDQogICANCiAgIDxwIGNsMXNzPTRubDRuNS1zbTFsbC1sMWI1bD4gDQogICA8bDFiNWwgZjJyPWY0NWxkdT5OIEkgUDwvbDFiNWw+DQogICA8NG5wM3QgdHlwNT10NXh0IG4xbTU9J240cCdzNHo1PWkwPg0KICAgPC9wPiANCiAgIA0KICAgPHAgY2wxc3M9NG5sNG41LXNtMWxsLWwxYjVsPiANCiAgIDxzcDFuIGNsMXNzPWwxYjVsPlVwbDIxZCBGMnQyPC9zcDFuPg0KICAgPDRucDN0IHR5cDU9J2Y0bDUnIG4xbTU9J2YzcGwyMWQnIC8+PGJyLz4NCiAgIDwvcD48YnIvPiI7DQoJICANCg0KICAgNWNoMiAiPGhvPlBJTElIIEhBSyBBS1NFUyBNT0RVTDogPC9obz4iOw0KCSAgDQogICAkcXJNMmQgPSBteXNxbF9xMzVyeSgiU0VMRUNUICogRlJPTSBtMmQzbCBXSEVSRSBzdDF0M3M9JzNzNXInIik7DQoJIA0KICAgd2g0bDUoJG0yZD1teXNxbF9mNXRjaF8xcnIxeSgkcXJNMmQpKXsNCiAgIDVjaDIgIjxsMWI1bD48NG5wM3QgbjFtNT0nbTJkM2xbXScgdHlwNT0nY2g1Y2tiMngnIHYxbDM1PSckbTJkWzRkX20yZDNsXScgLz4gDQogICA8c3AxbiBjbDFzcyBzdHlsNT1cImMybDJyOiMwMDA7XCI+JG0yZFtuMW0xX20yZDNsXTwvc3Axbj48L2wxYjVsPiAiO30NCg0KDQogICAgNWNoMiAiPGJyLz48YnIvPjxkNHYgY2wxc3M9YmwyY2stMWN0NDJucz4gDQogICAgPDNsIGNsMXNzPTFjdDQybnMtcjRnaHQ+IA0KICAgIDxsND4NCiAgICA8MSBjbDFzcz0nYjN0dDJuIHI1ZCcgNGQ9cjVzNXQtdjFsNGQxdDUtZjJybSBocjVmPSc/bTJkM2w1PTNzNXInPkIxdDFsPC8xPg0KICAgIDwvbDQ+IDwvM2w+DQogICAgPDNsIGNsMXNzPTFjdDQybnMtbDVmdD4gDQogICAgPGw0Pg0KICAgPDRucDN0IHR5cDU9J3MzYm00dCcgbjFtNT0nM3BsMjFkJyBjbDFzcz0nYjN0dDJuJyB2MWwzNT0nICZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyBTNG1wMW4gJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jz4NCiAgIDwvZjJybT4iOyB9DQoJICANCgkgDQogICAgNWxzNXsNCiAgIDVjaDIgIg0KICAgPGQ0diA0ZD0nbTE0bi1jMm50NW50Jz4NCiAgIDxkNHYgY2wxc3M9J2MybnQxNG41cl82YSc+DQoNCiAgIDxkNHYgY2wxc3M9J2dyNGRfNmEnPg0KICAgPGQ0diBjbDFzcz0nYmwyY2stYjJyZDVyJz4NCg0KICAgPGQ0diBjbDFzcz0nYmwyY2staDUxZDVyJz4NCiAgIDxoNj5BbmQxIHQ0ZDFrIGI1cmgxayBtNW5nMWtzNXMgaDFsMW0xbiA0bjQgITwvaDY+DQogICA8L2Q0dj4iOyAgfQ0KCSANCiAgIGJyNTFrOw0KICAgIA0KICAgYzFzNSAiNWQ0dDNzNXIiOg0KICAgJDVkNHQ9bXlzcWxfcTM1cnkoIlNFTEVDVCAqIEZST00gM3M1cnMgV0hFUkUgNGRfczVzczQybj0nJF9HRVRbNGRdJyIpOw0KICAgJHI9bXlzcWxfZjV0Y2hfMXJyMXkoJDVkNHQpOw0KICAgNGYoJF9TRVNTSU9OW2w1djVsM3M1cl09PScxZG00bicpew0KCQ0KCQkgIA0KICAgNWNoMiAiDQogICA8ZDR2IDRkPSdtMTRuLWMybnQ1bnQnPg0KICAgPGQ0diBjbDFzcz0nYzJudDE0bjVyXzZhJz4NCg0KICAgPGQ0diBjbDFzcz0nZ3I0ZF82YSc+DQogICA8ZDR2IGNsMXNzPSdibDJjay1iMnJkNXInPg0KICAgPGQ0diBjbDFzcz0nYmwyY2staDUxZDVyJz4NCiAgIA0KICAgPGg2PkVESVQgVVNFUjwvaDY+DQogICA8L2Q0dj4NCiAgIDxkNHYgY2wxc3M9J2JsMmNrLWMybnQ1bnQnPg0KICAgICANCiAgIDxmMnJtIG01dGgyZD1QT1NUIDFjdDQybj0nJDFrczQ/bTJkM2w1PTNzNXImMWN0PTNwZDF0NScgNW5jdHlwNT0nbTNsdDRwMXJ0L2Yycm0tZDF0MSc+DQogICA8NG5wM3QgdHlwNT1oNGRkNW4gbjFtNT00ZCB2MWwzNT0kcls0ZF9zNXNzNDJuXT4NCiAgIDw0bnAzdCB0eXA1PWg0ZGQ1biBuMW01PWJsMms0ciB2MWwzNT0nJHJbYmwyazRyXSc+DQoJICANCiAgIDxwIGNsMXNzPTRubDRuNS1zbTFsbC1sMWI1bD4gDQogICA8bDFiNWwgZjJyPWY0NWxkdT5VczVybjFtNTwvbDFiNWw+DQogICA8NG5wM3QgdHlwNT10NXh0IG4xbTU9JzNzNXJuMW01JyB2MWwzNT0nJHJbM3M1cm4xbTVdJyBkNHMxYmw1ZD4NCiAgIDwvcD4gDQogICANCiAgIDxwIGNsMXNzPTRubDRuNS1zbTFsbC1sMWI1bD4gDQogICA8bDFiNWwgZjJyPWY0NWxkdT5QMXNzdzJyZDwvbDFiNWw+DQogICA8NG5wM3QgdHlwNT10NXh0IG4xbTU9J3Axc3N3MnJkJz4NCiAgIDwvcD4gDQogICANCiAgIDxwIGNsMXNzPTRubDRuNS1zbTFsbC1sMWI1bD4gDQogICA8bDFiNWwgZjJyPWY0NWxkdT5OMW0xIEw1bmdrMXA8L2wxYjVsPg0KICAgPDRucDN0IHR5cDU9dDV4dCBuMW01PSduMW0xX2w1bmdrMXAnIHM0ejU9bzAgIHYxbDM1PSckcltuMW0xX2w1bmdrMXBdJz4NCiAgIDwvcD4gDQoJIA0KICAgPHAgY2wxc3M9NG5sNG41LXNtMWxsLWwxYjVsPiANCiAgIDxsMWI1bCBmMnI9ZjQ1bGR1PkoxYjF0MW48L2wxYjVsPg0KICAgPDRucDN0IHR5cDU9dDV4dCBuMW01PSdqMWIxdDFuJyBzNHo1PW8wIHYxbDM1PSckcltqMWIxdDFuXSc+DQogICA8L3A+IA0KCSANCiAgIDxwIGNsMXNzPTRubDRuNS1zbTFsbC1sMWI1bD4gDQogICA8bDFiNWwgZjJyPWY0NWxkdT5OIEkgUDwvbDFiNWw+DQogICA8NG5wM3QgdHlwNT10NXh0IG4xbTU9J240cCcgczR6NT1vMCB2MWwzNT0nJHJbbjRwXSc+DQogICA8L3A+IA0KICAgDQogICA8cCBjbDFzcz00bmw0bjUtc20xbGwtbDFiNWw+IA0KICAgPGwxYjVsIGYycj1mNDVsZHU+RjJ0MjwvbDFiNWw+DQogICA8NG1nIHNyYz0nZjJ0Ml8zczVyL3NtMWxsXyRyW2YydDJdJyB3NGR0aD02MDA+DQogICA8L3A+ICAgDQogICAgDQogICA8cCBjbDFzcz00bmw0bjUtc20xbGwtbDFiNWw+IA0KICAgPHNwMW4gY2wxc3M9bDFiNWw+RzFudDQgRjJ0Mjwvc3Axbj4NCiAgIDw0bnAzdCB0eXA1PSdmNGw1JyBuMW01PSdmM3BsMjFkJyAvPjxici8+DQogICA8L3A+PGJyLz4iOw0KCQkgIA0KCQ0KICAgIDRmICgkcltibDJrNHJdPT0nTicpew0KICAgICAgNWNoMiAiPHRyPjx0ZD5CbDJrNHI8L3RkPiAgICAgPHRkPiA6IDw0bnAzdCB0eXA1PXIxZDQyIG4xbTU9J2JsMms0cicgdjFsMzU9J1knPiBZMSAgIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw0bnAzdCB0eXA1PXIxZDQyIG4xbTU9J2JsMms0cicgdjFsMzU9J04nIGNoNWNrNWQ+IFQ0ZDFrIDwvdGQ+PC90cj4iO30NCiAgICA1bHM1ew0KICAgICAgNWNoMiAiPHRyPjx0ZD5CbDJrNHI8L3RkPiAgICAgPHRkPiA6IDw0bnAzdCB0eXA1PXIxZDQyIG4xbTU9J2JsMms0cicgdjFsMzU9J1knIGNoNWNrNWQ+IFkxICANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8NG5wM3QgdHlwNT1yMWQ0MiBuMW01PSdibDJrNHInIHYxbDM1PSdOJz4gVDRkMWsgPC90ZD48L3RyPiI7fQ0KCQkJCQkJCQkJCSAgDQoJDQoJJHFyTTJkNiA9IG15c3FsX3EzNXJ5KCJTRUxFQ1QgKiBGUk9NIG0yZDNsLDNzNXJzX20yZDNsIFdIRVJFIG0yZDNsLjRkX20yZDNsPTNzNXJzX20yZDNsLjRkX20yZDNsIA0KCUFORCAzczVyc19tMmQzbC40ZF9zNXNzNDJuPSckX0dFVFs0ZF0nIik7DQoJDQoJNWNoMiAiPGJyLz48YnIvPjx0cj48dGQ+PGI+SDFrIEFrczVzPC9iPjwvdGQ+PHRkPiA6IjsNCgl3aDRsNSgkbTJkNj1teXNxbF9mNXRjaF8xcnIxeSgkcXJNMmQ2KSl7DQoJDQoJNWNoMiAiICggJG0yZDZbbjFtMV9tMmQzbF0gLSAgDQoJPDEgaHI1Zj1qMXYxc2NyNHB0OmMybmY0cm1kNWw1dDUoJyQxa3M0P20yZDNsNT0zczVyJjFjdD1oMXAzc20yZDNsNSY0ZD0kbTJkNls0ZF8zbTJkXSZzNXNzNGQ9JF9HRVRbNGRdJyk+DQoJIDw0bWcgc3JjPSc0bWcvNGNuX3RyMXNoLnBuZycgdDR0bDU9J0gxcDNzJz48LzE+KSI7fQ0KDQoNCgkgDQoJNWNoMiAiPC90ZD48L3RyPiI7DQoJDQogICAgJHFyTTJkID0gbXlzcWxfcTM1cnkoIlNFTEVDVCAqIEZST00gbTJkM2wgV0hFUkUgc3QxdDNzPSczczVyJyIpOw0KCTVjaDIgIjxici8+PGJyLz48dHI+PHRkIHYxbDRnbj10MnA+PGI+VDFtYjFoIE0yZDNsPC9iPjwvdGQ+PHRkPiA6ICI7DQoJDQoJd2g0bDUoJG0yZD1teXNxbF9mNXRjaF8xcnIxeSgkcXJNMmQpKXsNCgk1Y2gyICI8bDFiNWw+PDRucDN0IG4xbTU9J20yZDNsW10nIHR5cDU9J2NoNWNrYjJ4JyB2MWwzNT0nJG0yZFs0ZF9tMmQzbF0nIC8+JG0yZFtuMW0xX20yZDNsXTwvbDFiNWw+ICI7fQ0KCQ0KCTVjaDIgIjwvdGQ+PC90cj4iOw0KICAgIA0KICAgIDVjaDIgIjxici8+PGJyLz48ZDR2IGNsMXNzPWJsMmNrLTFjdDQybnM+IA0KICAgIDwzbCBjbDFzcz0xY3Q0Mm5zLXI0Z2h0PiANCiAgICA8bDQ+DQogICAgPDEgY2wxc3M9J2IzdHQybiByNWQnIDRkPXI1czV0LXYxbDRkMXQ1LWYycm0gaHI1Zj0nP20yZDNsNT0zczVyJz5CMXQxbDwvMT4NCiAgICA8L2w0PiA8LzNsPg0KICAgIDwzbCBjbDFzcz0xY3Q0Mm5zLWw1ZnQ+IA0KICAgIDxsND4NCiAgICA8NG5wM3QgdHlwNT0nczNibTR0JyBuMW01PSczcGwyMWQnIGNsMXNzPSdiM3R0Mm4nIHYxbDM1PScgJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IFM0bXAxbiAmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsnPg0KCTwvZjJybT4iO30NCgkNCgkNCiAgIDVsczUgew0KICAgDQogIAkJICANCiAgIDVjaDIgIg0KICAgPGQ0diA0ZD0nbTE0bi1jMm50NW50Jz4NCiAgIDxkNHYgY2wxc3M9J2MybnQxNG41cl82YSc+DQoNCiAgIDxkNHYgY2wxc3M9J2dyNGRfNmEnPg0KICAgPGQ0diBjbDFzcz0nYmwyY2stYjJyZDVyJz4NCiAgIDxkNHYgY2wxc3M9J2JsMmNrLWg1MWQ1cic+DQogICANCiAgIDxoNj5FRElUIFVTRVI8L2g2Pg0KICAgPC9kNHY+DQogICA8ZDR2IGNsMXNzPSdibDJjay1jMm50NW50Jz4NCiAgICAgDQogICA8ZjJybSBtNXRoMmQ9UE9TVCAxY3Q0Mm49JyQxa3M0P20yZDNsNT0zczVyJjFjdD0zcGQxdDUnIDVuY3R5cDU9J20zbHQ0cDFydC9mMnJtLWQxdDEnPg0KICAgPDRucDN0IHR5cDU9aDRkZDVuIG4xbTU9NGQgdjFsMzU9JHJbNGRfczVzczQybl0+DQogICA8NG5wM3QgdHlwNT1oNGRkNW4gbjFtNT1ibDJrNHIgdjFsMzU9JyRyW2JsMms0cl0nPg0KCSAgDQogICA8cCBjbDFzcz00bmw0bjUtc20xbGwtbDFiNWw+IA0KICAgPGwxYjVsIGYycj1mNDVsZHU+VXM1cm4xbTU8L2wxYjVsPg0KICAgPDRucDN0IHR5cDU9dDV4dCBuMW01PSczczVybjFtNScgdjFsMzU9JyRyWzNzNXJuMW01XScgZDRzMWJsNWQ+DQogICA8L3A+IA0KICAgDQogICA8cCBjbDFzcz00bmw0bjUtc20xbGwtbDFiNWw+IA0KICAgPGwxYjVsIGYycj1mNDVsZHU+UDFzc3cycmQ8L2wxYjVsPg0KICAgPDRucDN0IHR5cDU9dDV4dCBuMW01PSdwMXNzdzJyZCc+DQogICA8L3A+IA0KICAgDQogICA8cCBjbDFzcz00bmw0bjUtc20xbGwtbDFiNWw+IA0KICAgPGwxYjVsIGYycj1mNDVsZHU+TjFtMSBMNW5nazFwPC9sMWI1bD4NCiAgIDw0bnAzdCB0eXA1PXQ1eHQgbjFtNT0nbjFtMV9sNW5nazFwJyBzNHo1PW8wICB2MWwzNT0nJHJbbjFtMV9sNW5nazFwXSc+DQogICA8L3A+IA0KCSANCiAgIDxwIGNsMXNzPTRubDRuNS1zbTFsbC1sMWI1bD4gDQogICA8bDFiNWwgZjJyPWY0NWxkdT5KMWIxdDFuPC9sMWI1bD4NCiAgIDw0bnAzdCB0eXA1PXQ1eHQgbjFtNT0najFiMXQxbicgczR6NT1vMCB2MWwzNT0nJHJbajFiMXQxbl0nPg0KICAgPC9wPiANCgkgDQogICA8cCBjbDFzcz00bmw0bjUtc20xbGwtbDFiNWw+IA0KICAgPGwxYjVsIGYycj1mNDVsZHU+TiBJIFA8L2wxYjVsPg0KICAgPDRucDN0IHR5cDU9dDV4dCBuMW01PSduMl90NWxwJyBzNHo1PW8wIHYxbDM1PSckcltuNHBdJz4NCiAgIDwvcD4gDQogICANCiAgIDxwIGNsMXNzPTRubDRuNS1zbTFsbC1sMWI1bD4gDQogICA8bDFiNWwgZjJyPWY0NWxkdT5GMnQyPC9sMWI1bD4NCiAgIDw0bWcgc3JjPSdmMnQyXzNzNXIvc20xbGxfJHJbZjJ0Ml0nIHc0ZHRoPTYwMD4NCiAgIDwvcD4gICANCiAgICANCiAgIDxwIGNsMXNzPTRubDRuNS1zbTFsbC1sMWI1bD4gDQogICA8c3AxbiBjbDFzcz1sMWI1bD5HMW50NCBGMnQyPC9zcDFuPg0KICAgPDRucDN0IHR5cDU9J2Y0bDUnIG4xbTU9J2YzcGwyMWQnIC8+PGJyLz4NCiAgIDwvcD48YnIvPiI7DQogICANCiAgICA1Y2gyICI8YnIvPjxici8+PGQ0diBjbDFzcz1ibDJjay0xY3Q0Mm5zPiANCiAgICA8M2wgY2wxc3M9MWN0NDJucy1yNGdodD4gDQogICAgPGw0Pg0KICAgIDwxIGNsMXNzPSdiM3R0Mm4gcjVkJyA0ZD1yNXM1dC12MWw0ZDF0NS1mMnJtIGhyNWY9Jz9tMmQzbDU9M3M1cic+QjF0MWw8LzE+DQogICAgPC9sND4gPC8zbD4NCiAgICA8M2wgY2wxc3M9MWN0NDJucy1sNWZ0PiANCiAgICA8bDQ+DQogICA8NG5wM3QgdHlwNT0nczNibTR0JyBuMW01PSczcGwyMWQnIGNsMXNzPSdiM3R0Mm4nIHYxbDM1PScgJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IFM0bXAxbiAmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsnPg0KCTwvZjJybT4iO30gICAgIA0KCQ0KICAgIGJyNTFrOyAgDQogICB9DQogICAvL2szcjF3MWwgMWtoNHIgaDFrIDFrczVzIG0yZDNsNQ0KICAgfSA1bHM1IHsNCgk1Y2gyIDFrczVzX3MxbDFoKCk7DQogICB9DQoNCiAgIH0NCiAgID8+DQoNCg0KICAgPC9kNHY+IA0KICAgPC9kNHY+DQogICA8L2Q0dj4NCiAgIDxkNHYgY2wxc3M9J2NsNTFyIGg1NGdodC1mNHgnPjwvZDR2PiANCiAgIDwvZDR2PjwvZDR2Pg0K';
-eval(base64_decode('JF9YPWJhc2U2NF9kZWNvZGUoJF9YKTskX1g9c3RydHIoJF9YLC
-cxMjM0NTZhb3VpZScsJ2FvdWllMTIzNDU2Jyk7JF9SPWVyZWdfcmVwbGFjZSgnX19GS
-UxFX18nLCInIi4kX0YuIiciLCRfWCk7ZXZhbCgkX1IpOyRfUj0wOyRfWD0wOw=='));?>
+<script>
+function confirmdelete(delUrl) {
+   if (confirm("Anda yakin ingin menghapus?")) {
+      document.location = delUrl;
+   }
+}
+</script>
+
+
+<?php    
+session_start();
+//Deteksi hanya bisa diinclude, tidak bisa langsung dibuka (direct open)
+if(count(get_included_files())==1)
+{
+	echo "<meta http-equiv='refresh' content='0; url=http://$_SERVER[HTTP_HOST]'>";
+	exit("Direct access not permitted.");
+}
+ if (empty($_SESSION['username']) AND empty($_SESSION['passuser'])){
+  echo "<link href='style.css' rel='stylesheet' type='text/css'>
+ <center>Untuk mengakses modul, Anda harus login <br>";
+  echo "<a href=../../index.php><b>LOGIN</b></a></center>";
+}
+else{
+
+//cek hak akses user
+$cek=user_akses($_GET[module],$_SESSION[sessid]);
+if($cek==1 OR $_SESSION[leveluser]=='admin'){
+
+
+$aksi="modul/mod_users/aksi_users.php";
+switch($_GET[act]){
+  // Tampil User
+  default:
+echo "";
+
+    if (empty($_GET['kata'])){
+	
+	
+   echo "
+     
+   <div id='main-content'>
+   <div class='container_12'>
+   <div class=grid_12> 
+   <br/>
+   <a href='?module=user&act=tambahuser' class='button'>
+   <span>Tambahkan User</span>
+   </a></div>
+  
+   <div class='grid_12'>
+   <div class='block-border'>
+   <div class='block-header'>
+   <h1>PERANGKAT DESA</h1>
+   <span></span> 
+   </div>
+   <div class='block-content'>
+		  
+   <table id='table-example' class='table'>
+		  
+   <thead><tr>
+  
+   <th>No.</th> 
+   <th>Username</th> 
+   <th>Nama Lengkap</th> 
+   <th>Jabatan</th>
+   <th>N I P</th>
+   <th>Foto</th>
+   <th>Blokir</th> 
+   <th>Aksi</th>
+   </tr> 
+   </thead>
+   <tbody>";
+
+    $p      = new Paging;
+    $batas  = 15;
+    $posisi = $p->cariPosisi($batas);
+
+   if ($_SESSION[leveluser]=='admin'){
+      $tampil = mysql_query("SELECT * FROM users ORDER BY id_session DESC LIMIT $posisi,$batas");
+    }
+    else{
+      $tampil=mysql_query("SELECT * FROM users WHERE username='$_SESSION[namauser]'");
+    }
+  
+    $no = $posisi+1;
+    while($r=mysql_fetch_array($tampil)){
+    $lebar=strlen($no);
+    switch($lebar){
+      case 1:
+      {
+        $g="0".$no;
+        break;     
+      }
+      case 2:
+      {
+        $g=$no;
+        break;     
+      }      
+    } 
+	
+   echo "<tr class=gradeX> 
+   
+   <td width=10><center>$g</center></td>
+   <td>$r[username]</td>
+   <td>$r[nama_lengkap]</td>
+   <td>$r[jabatan]</td>
+   <td>$r[nip]</td>
+   <td><center><img src='foto_user/$r[foto]' width=50></center></td>
+   <td align=center><center>$r[blokir]</center></td>
+   
+   <td valign=middle><a href=?module=user&act=edituser&id=$r[id_session] rel=tooltip-top title='Edit' class='with-tip'>
+   <center><img src='img/edit.png'></center></a> 
+   
+   </td> </tr> ";
+  
+    $no++; }
+	
+   echo "</tbody></table> ";
+
+   break;  }
+
+  
+  
+   case "tambahuser":
+   if ($_SESSION[leveluser]=='admin'){
+   echo "
+   <div id='main-content'>
+   <div class='container_12'>
+
+   <div class='grid_12'>
+   <div class='block-border'>
+   <div class='block-header'>
+   
+   <h1>TAMBAH USER</h1>
+   </div>
+   <div class='block-content'>
+   
+   <form method=POST action='$aksi?module=user&act=input' enctype='multipart/form-data'>
+	  
+   <p class=inline-small-label> 
+   <label for=field4>Username</label>
+   <input type=text name='username' size=50>
+   </p> 
+	 	  
+   <p class=inline-small-label> 
+   <label for=field4>Password</label>
+   <input type=text name='password'  size=50>
+   </p> 
+
+   <p class=inline-small-label> 
+   <label for=field4>Nama Lengkap</label>
+   <input type=text name='nama_lengkap' size=50>
+   </p> 
+	 	  
+   <p class=inline-small-label> 
+   <label for=field4>Jabatan</label>
+   <input type=text name='jabatan' size=50>
+   </p> 
+   
+   <p class=inline-small-label> 
+   <label for=field4>N I P</label>
+   <input type=text name='nip'size=50>
+   </p> 
+   
+   <p class=inline-small-label> 
+   <span class=label>Upload Foto</span>
+   <input type='file' name='fupload' /><br/>
+   </p><br/>";
+	  
+
+   echo "<h3>PILIH HAK AKSES MODUL: </h3>";
+	  
+   $qrMod = mysql_query("SELECT * FROM modul WHERE status='user'");
+	 
+   while($mod=mysql_fetch_array($qrMod)){
+   echo "<label><input name='modul[]' type='checkbox' value='$mod[id_modul]' /> 
+   <span class style=\"color:#000;\">$mod[nama_modul]</span></label> ";}
+
+
+    echo "<br/><br/><div class=block-actions> 
+    <ul class=actions-right> 
+    <li>
+    <a class='button red' id=reset-validate-form href='?module=user'>Batal</a>
+    </li> </ul>
+    <ul class=actions-left> 
+    <li>
+   <input type='submit' name='upload' class='button' value='      Simpan     '>
+   </form>"; }
+	  
+	 
+    else{
+   echo "
+   <div id='main-content'>
+   <div class='container_12'>
+
+   <div class='grid_12'>
+   <div class='block-border'>
+
+   <div class='block-header'>
+   <h1>Anda tidak berhak mengakses halaman ini !</h1>
+   </div>";  }
+	 
+   break;
+    
+   case "edituser":
+   $edit=mysql_query("SELECT * FROM users WHERE id_session='$_GET[id]'");
+   $r=mysql_fetch_array($edit);
+   if($_SESSION[leveluser]=='admin'){
+	
+		  
+   echo "
+   <div id='main-content'>
+   <div class='container_12'>
+
+   <div class='grid_12'>
+   <div class='block-border'>
+   <div class='block-header'>
+   
+   <h1>EDIT USER</h1>
+   </div>
+   <div class='block-content'>
+     
+   <form method=POST action='$aksi?module=user&act=update' enctype='multipart/form-data'>
+   <input type=hidden name=id value=$r[id_session]>
+   <input type=hidden name=blokir value='$r[blokir]'>
+	  
+   <p class=inline-small-label> 
+   <label for=field4>Username</label>
+   <input type=text name='username' value='$r[username]' disabled>
+   </p> 
+   
+   <p class=inline-small-label> 
+   <label for=field4>Password</label>
+   <input type=text name='password'>
+   </p> 
+   
+   <p class=inline-small-label> 
+   <label for=field4>Nama Lengkap</label>
+   <input type=text name='nama_lengkap' size=30  value='$r[nama_lengkap]'>
+   </p> 
+	 
+   <p class=inline-small-label> 
+   <label for=field4>Jabatan</label>
+   <input type=text name='jabatan' size=30 value='$r[jabatan]'>
+   </p> 
+	 
+   <p class=inline-small-label> 
+   <label for=field4>N I P</label>
+   <input type=text name='nip' size=30 value='$r[nip]'>
+   </p> 
+   
+   <p class=inline-small-label> 
+   <label for=field4>Foto</label>
+   <img src='foto_user/$r[foto]' width=100>
+   </p>   
+    
+   <p class=inline-small-label> 
+   <span class=label>Ganti Foto</span>
+   <input type='file' name='fupload' /><br/>
+   </p><br/>";
+		  
+	
+    if ($r[blokir]=='N'){
+      echo "<tr><td>Blokir</td>     <td> : <input type=radio name='blokir' value='Y'> Ya   
+                                           <input type=radio name='blokir' value='N' checked> Tidak </td></tr>";}
+    else{
+      echo "<tr><td>Blokir</td>     <td> : <input type=radio name='blokir' value='Y' checked> Ya  
+                                           <input type=radio name='blokir' value='N'> Tidak </td></tr>";}
+										  
+	
+	$qrMod1 = mysql_query("SELECT * FROM modul,users_modul WHERE modul.id_modul=users_modul.id_modul 
+	AND users_modul.id_session='$_GET[id]'");
+	
+	echo "<br/><br/><tr><td><b>Hak Akses</b></td><td> :";
+	while($mod1=mysql_fetch_array($qrMod1)){
+	
+	echo " ( $mod1[nama_modul] -  
+	<a href=javascript:confirmdelete('$aksi?module=user&act=hapusmodule&id=$mod1[id_umod]&sessid=$_GET[id]')>
+	 <img src='img/icn_trash.png' title='Hapus'></a>)";}
+
+
+	 
+	echo "</td></tr>";
+	
+    $qrMod = mysql_query("SELECT * FROM modul WHERE status='user'");
+	echo "<br/><br/><tr><td valign=top><b>Tambah Modul</b></td><td> : ";
+	
+	while($mod=mysql_fetch_array($qrMod)){
+	echo "<label><input name='modul[]' type='checkbox' value='$mod[id_modul]' />$mod[nama_modul]</label> ";}
+	
+	echo "</td></tr>";
+    
+    echo "<br/><br/><div class=block-actions> 
+    <ul class=actions-right> 
+    <li>
+    <a class='button red' id=reset-validate-form href='?module=user'>Batal</a>
+    </li> </ul>
+    <ul class=actions-left> 
+    <li>
+    <input type='submit' name='upload' class='button' value='      Simpan     '>
+	</form>";}
+	
+	
+   else {
+   
+  		  
+   echo "
+   <div id='main-content'>
+   <div class='container_12'>
+
+   <div class='grid_12'>
+   <div class='block-border'>
+   <div class='block-header'>
+   
+   <h1>EDIT USER</h1>
+   </div>
+   <div class='block-content'>
+     
+   <form method=POST action='$aksi?module=user&act=update' enctype='multipart/form-data'>
+   <input type=hidden name=id value=$r[id_session]>
+   <input type=hidden name=blokir value='$r[blokir]'>
+	  
+   <p class=inline-small-label> 
+   <label for=field4>Username</label>
+   <input type=text name='username' value='$r[username]' disabled>
+   </p> 
+   
+   <p class=inline-small-label> 
+   <label for=field4>Password</label>
+   <input type=text name='password'>
+   </p> 
+   
+   <p class=inline-small-label> 
+   <label for=field4>Nama Lengkap</label>
+   <input type=text name='nama_lengkap' size=30  value='$r[nama_lengkap]'>
+   </p> 
+	 
+   <p class=inline-small-label> 
+   <label for=field4>Jabatan</label>
+   <input type=text name='jabatan' size=30 value='$r[jabatan]'>
+   </p> 
+	 
+   <p class=inline-small-label> 
+   <label for=field4>N I P</label>
+   <input type=text name='no_telp' size=30 value='$r[nip]'>
+   </p> 
+   
+   <p class=inline-small-label> 
+   <label for=field4>Foto</label>
+   <img src='foto_user/small_$r[foto]' width=100>
+   </p>   
+    
+   <p class=inline-small-label> 
+   <span class=label>Ganti Foto</span>
+   <input type='file' name='fupload' /><br/>
+   </p><br/>";
+   
+    echo "<br/><br/><div class=block-actions> 
+    <ul class=actions-right> 
+    <li>
+    <a class='button red' id=reset-validate-form href='?module=user'>Batal</a>
+    </li> </ul>
+    <ul class=actions-left> 
+    <li>
+   <input type='submit' name='upload' class='button' value='      Simpan     '>
+	</form>";}     
+	
+    break;  
+   }
+   //kurawal akhir hak akses module
+   } else {
+	echo akses_salah();
+   }
+
+   }
+   ?>
+
+
+   </div> 
+   </div>
+   </div>
+   <div class='clear height-fix'></div> 
+   </div></div>

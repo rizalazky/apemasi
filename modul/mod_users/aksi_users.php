@@ -1,4 +1,167 @@
-<?php $_F=__FILE__;$_X='Pz48P3BocA0KczVzczQybl9zdDFydCgpOw0KIDRmICg1bXB0eSgkX1NFU1NJT05bJzNzNXJuMW01J10pIEFORCA1bXB0eSgkX1NFU1NJT05bJ3Axc3MzczVyJ10pKXsNCiAgNWNoMiAiPGw0bmsgaHI1Zj0nc3R5bDUuY3NzJyByNWw9J3N0eWw1c2g1NXQnIHR5cDU9J3Q1eHQvY3NzJz4NCiA8YzVudDVyPlVudDNrIG01bmcxa3M1cyBtMmQzbCwgQW5kMSBoMXIzcyBsMmc0biA8YnI+IjsNCiAgNWNoMiAiPDEgaHI1Zj0uLi8uLi80bmQ1eC5waHA+PGI+TE9HSU48L2I+PC8xPjwvYzVudDVyPiI7DQp9DQo1bHM1ew0KNG5jbDNkNSAiLi4vLi4vYzJuZjRnL2sybjVrczQucGhwIjsNCjRuY2wzZDUgIi4uLy4uL2MybmY0Zy9mM25nczRfdGgzbWIucGhwIjsNCg0KJG0yZDNsNT0kX0dFVFttMmQzbDVdOw0KJDFjdD0kX0dFVFsxY3RdOw0KDQovLyBJbnAzdCAzczVyDQo0ZiAoJG0yZDNsNT09JzNzNXInIEFORCAkMWN0PT0nNG5wM3QnKXsNCiAgJGwyazFzNF9mNGw1ICAgID0gJF9GSUxFU1snZjNwbDIxZCddWyd0bXBfbjFtNSddOw0KICAkdDRwNV9mNGw1ICAgICAgPSAkX0ZJTEVTWydmM3BsMjFkJ11bJ3R5cDUnXTsNCiAgJG4xbTFfZjRsNSAgICAgID0gJF9GSUxFU1snZjNwbDIxZCddWyduMW01J107DQogICQxYzFrICAgICAgICAgICA9IHIxbmQoNiw5OSk7DQogICRuMW0xX2Y0bDVfM240ayA9ICQxYzFrLiRuMW0xX2Y0bDU7IA0KICANCiAgJHAxc3M9bWRpKCRfUE9TVFtwMXNzdzJyZF0pOw0KICANCiAgLy8gQXAxYjRsMSAxZDEgZjJ0MiB5MW5nIGQ0M3BsMjFkDQogIDRmICghNW1wdHkoJGwyazFzNF9mNGw1KSl7DQogICAgVXBsMjFkVXM1cigkbjFtMV9mNGw1XzNuNGspOw0KICBteXNxbF9xMzVyeSgiSU5TRVJUIElOVE8gM3M1cnMoM3M1cm4xbTUsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwMXNzdzJyZCwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG4xbTFfbDVuZ2sxcCwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGoxYjF0MW4sIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbjRwLA0KCQkJCQkJCQkgICAgICAgICAgICAgICAgIGYydDIsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA0ZF9zNXNzNDJuKSANCgkgICAgICAgICAgICAgICAgICAgICAgIFZBTFVFUygnJF9QT1NUWzNzNXJuMW01XScsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICckcDFzcycsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICckX1BPU1RbbjFtMV9sNW5nazFwXScsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICckX1BPU1RbajFiMXQxbl0nLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnJF9QT1NUW240cF0nLA0KCQkJCQkJCQkgICAgICAgICAgICAgICAgJyRuMW0xX2Y0bDVfM240aycsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICckcDFzcycpIik7DQogICRtMmQ9YzIzbnQoJF9QT1NUWydtMmQzbCddKTsNCiAgJG0yZDNsPSRfUE9TVFsnbTJkM2wnXTsNCiAgZjJyKCQ0PTA7JDQ8JG0yZDskNCsrKXsNCiAgCW15c3FsX3EzNXJ5KCJJTlNFUlQgSU5UTyAzczVyc19tMmQzbCBTRVQgNGRfczVzczQybj0nJHAxc3MnLDRkX20yZDNsPSckbTJkM2xbJDRdJyIpOw0KICB9DQogIGg1MWQ1cignbDJjMXQ0Mm46Li4vLi4vbTVkNDEucGhwP20yZDNsNT0nLiRtMmQzbDUpOw0KICB9DQogIDVsczV7DQogIG15c3FsX3EzNXJ5KCJJTlNFUlQgSU5UTyAzczVycygzczVybjFtNSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHAxc3N3MnJkLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbjFtMV9sNW5nazFwLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgajFiMXQxbiwgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuNHAsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA0ZF9zNXNzNDJuKSANCgkgICAgICAgICAgICAgICAgICAgICAgIFZBTFVFUygnJF9QT1NUWzNzNXJuMW01XScsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICckcDFzcycsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICckX1BPU1RbbjFtMV9sNW5nazFwXScsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICckX1BPU1RbajFiMXQxbl0nLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnJF9QT1NUW240cF0nLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnJHAxc3MnKSIpOw0KICAkbTJkPWMyM250KCRfUE9TVFsnbTJkM2wnXSk7DQogICRtMmQzbD0kX1BPU1RbJ20yZDNsJ107DQogIGYycigkND0wOyQ0PCRtMmQ7JDQrKyl7DQogIAlteXNxbF9xMzVyeSgiSU5TRVJUIElOVE8gM3M1cnNfbTJkM2wgU0VUIDRkX3M1c3M0Mm49JyRwMXNzJyw0ZF9tMmQzbD0nJG0yZDNsWyQ0XSciKTsNCiAgfQ0KICBoNTFkNXIoJ2wyYzF0NDJuOi4uLy4uL201ZDQxLnBocD9tMmQzbDU9Jy4kbTJkM2w1KTsNCn0NCn0NCg0KLy8gVXBkMXQ1IDNzNXINCjVsczU0ZiAoJG0yZDNsNT09JzNzNXInIEFORCAkMWN0PT0nM3BkMXQ1Jykgew0KICAkbDJrMXM0X2Y0bDUgICAgPSAkX0ZJTEVTWydmM3BsMjFkJ11bJ3RtcF9uMW01J107DQogICR0NHA1X2Y0bDUgICAgICA9ICRfRklMRVNbJ2YzcGwyMWQnXVsndHlwNSddOw0KICAkbjFtMV9mNGw1ICAgICAgPSAkX0ZJTEVTWydmM3BsMjFkJ11bJ24xbTUnXTsNCiAgJDFjMWsgICAgICAgICAgID0gcjFuZCg2LDk5KTsNCiAgJG4xbTFfZjRsNV8zbjRrID0gJDFjMWsuJG4xbTFfZjRsNTsgDQogIA0KICAvLyBBcDFiNGwxIGYydDIgdDRkMWsgZDRnMW50NA0KICA0ZigkX1BPU1RbcDFzc3cycmRdIT0nJyl7DQogICRwMXNzPW1kaSgkX1BPU1RbcDFzc3cycmRdKTsNCiAgNGYgKDVtcHR5KCRsMmsxczRfZjRsNSkpew0KICAgIG15c3FsX3EzNXJ5KCJVUERBVEUgM3M1cnMgU0VUIHAxc3N3MnJkICAgICAgICA9ICckcDFzcycsDQoJCQkJCQkJCSAgICAgICAgICAgICAgICAgIG4xbTFfbDVuZ2sxcCAgID0gJyRfUE9TVFtuMW0xX2w1bmdrMXBdJywNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBqMWIxdDFuICAgICAgICAgID0gJyRfUE9TVFtqMWIxdDFuXScsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmwyazRyICAgICAgICAgPSAnJF9QT1NUW2JsMms0cl0nLCAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbjRwICAgICAgICA9ICckX1BPU1RbbjRwXScgIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgV0hFUkUgIDRkX3M1c3M0Mm4gICAgID0gJyRfUE9TVFs0ZF0nIik7DQogICRtMmQ9YzIzbnQoJF9QT1NUWydtMmQzbCddKTsNCiAgJG0yZDNsPSRfUE9TVFsnbTJkM2wnXTsNCiAgZjJyKCQ0PTA7JDQ8JG0yZDskNCsrKXsNCiAgCW15c3FsX3EzNXJ5KCJJTlNFUlQgSU5UTyAzczVyc19tMmQzbCBTRVQgNGRfczVzczQybj0nJF9QT1NUWzRkXScsNGRfbTJkM2w9JyRtMmQzbFskNF0nIik7DQogIH0NCiAgaDUxZDVyKCdsMmMxdDQybjouLi8uLi9tNWQ0MS5waHA/bTJkM2w1PScuJG0yZDNsNSk7DQogIH0NCiAgLy8gQXAxYjRsMSBwMXNzdzJyZCBkNDNiMWgNCiAgNWxzNXsNCgkkZDF0MV9mMnQyID0gbXlzcWxfcTM1cnkoIlNFTEVDVCBmMnQyIEZST00gM3M1cnMgV0hFUkUgNGRfczVzczQybj0nJF9QT1NUWzRkXSciKTsNCgkkciAgICAJPSBteXNxbF9mNXRjaF8xcnIxeSgkZDF0MV9mMnQyKTsNCglAM25sNG5rKCcuLi8uLi9mMnQyXzNzNXIvJy4kclsnZjJ0MiddKTsNCglAM25sNG5rKCcuLi8uLi9mMnQyXzNzNXIvJy4nc20xbGxfJy4kclsnZjJ0MiddKTsNCiAgICBVcGwyMWRVczVyKCRuMW0xX2Y0bDVfM240ayAsJy4uL2YydDJfM3M1ci8nKTsNCiAgICBteXNxbF9xMzVyeSgiVVBEQVRFIDNzNXJzIFNFVCBwMXNzdzJyZCAgICAgICAgPSAnJHAxc3MnLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG4xbTFfbDVuZ2sxcCAgICA9ICckX1BPU1RbbjFtMV9sNW5nazFwXScsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgajFiMXQxbiAgICAgICAgICAgPSAnJF9QT1NUW2oxYjF0MW5dJywgIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJsMms0ciAgICAgICAgICA9ICckX1BPU1RbYmwyazRyXScsIA0KCQkJCQkJCQkgICAgICAgICAgICAgICAgICBmMnQyICAgICAgICAgID0gJyRuMW0xX2Y0bDVfM240aycsIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG40cCAgICAgICAgID0gJyRfUE9TVFtuNHBdJyAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgV0hFUkUgNGRfczVzczQybiAgICAgID0gJyRfUE9TVFs0ZF0nIik7DQogICRtMmQ9YzIzbnQoJF9QT1NUWydtMmQzbCddKTsNCiAgJG0yZDNsPSRfUE9TVFsnbTJkM2wnXTsNCiAgZjJyKCQ0PTA7JDQ8JG0yZDskNCsrKXsNCiAgCW15c3FsX3EzNXJ5KCJJTlNFUlQgSU5UTyAzczVyc19tMmQzbCBTRVQgNGRfczVzczQybj0nJF9QT1NUWzRkXScsNGRfbTJkM2w9JyRtMmQzbFskNF0nIik7DQogIH0NCiAgfQ0KICB9IDVsczUgew0KICA0ZiAoNW1wdHkoJGwyazFzNF9mNGw1KSl7DQogIG15c3FsX3EzNXJ5KCJVUERBVEUgM3M1cnMgU0VUICAgbjFtMV9sNW5nazFwICAgPSAnJF9QT1NUW24xbTFfbDVuZ2sxcF0nLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGoxYjF0MW4gICAgICAgICAgPSAnJF9QT1NUW2oxYjF0MW5dJywNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBibDJrNHIgICAgICAgICA9ICckX1BPU1RbYmwyazRyXScsICANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuNHAgICAgICAgID0gJyRfUE9TVFtuNHBdJyAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICBXSEVSRSAgNGRfczVzczQybiAgICAgPSAnJF9QT1NUWzRkXSciKTsNCiAgJG0yZD1jMjNudCgkX1BPU1RbJ20yZDNsJ10pOw0KICAkbTJkM2w9JF9QT1NUWydtMmQzbCddOw0KICBmMnIoJDQ9MDskNDwkbTJkOyQ0Kyspew0KICAJbXlzcWxfcTM1cnkoIklOU0VSVCBJTlRPIDNzNXJzX20yZDNsIFNFVCA0ZF9zNXNzNDJuPSckX1BPU1RbNGRdJyw0ZF9tMmQzbD0nJG0yZDNsWyQ0XSciKTsNCiAgfQ0KaDUxZDVyKCdsMmMxdDQybjouLi8uLi9tNWQ0MS5waHA/bTJkM2w1PScuJG0yZDNsNSk7DQogIH0NCiAgLy8gQXAxYjRsMSBmMnQyIGQ0M2IxaA0KICA1bHM1ew0KCSRkMXQxX2YydDIgPSBteXNxbF9xMzVyeSgiU0VMRUNUIGYydDIgRlJPTSAzczVycyBXSEVSRSA0ZF9zNXNzNDJuPSckX1BPU1RbNGRdJyIpOw0KCSRyICAgIAk9IG15c3FsX2Y1dGNoXzFycjF5KCRkMXQxX2YydDIpOw0KCUAzbmw0bmsoJy4uLy4uL2YydDJfM3M1ci8nLiRyWydmMnQyJ10pOw0KCUAzbmw0bmsoJy4uLy4uL2YydDJfM3M1ci8nLidzbTFsbF8nLiRyWydmMnQyJ10pOw0KICAgIFVwbDIxZFVzNXIoJG4xbTFfZjRsNV8zbjRrICwnLi4vLi4vZjJ0Ml8zczVyLycpOw0KICAgIG15c3FsX3EzNXJ5KCJVUERBVEUgM3M1cnMgU0VUIG4xbTFfbDVuZ2sxcCAgICA9ICckX1BPU1RbbjFtMV9sNW5nazFwXScsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNW0xNGwgICAgICAgICAgID0gJyRfUE9TVFs1bTE0bF0nLCAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmwyazRyICAgICAgICAgID0gJyRfUE9TVFtibDJrNHJdJywgDQoJCQkJCQkJCSAgICAgICAgICAgICAgICAgIGYydDIgICAgICAgICAgICA9ICckbjFtMV9mNGw1XzNuNGsnLCANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuMl90NWxwICAgICAgICAgPSAnJF9QT1NUW24yX3Q1bHBdJyAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgV0hFUkUgNGRfczVzczQybiAgICAgID0gJyRfUE9TVFs0ZF0nIik7DQogICRtMmQ9YzIzbnQoJF9QT1NUWydtMmQzbCddKTsNCiAgJG0yZDNsPSRfUE9TVFsnbTJkM2wnXTsNCiAgZjJyKCQ0PTA7JDQ8JG0yZDskNCsrKXsNCiAgCW15c3FsX3EzNXJ5KCJJTlNFUlQgSU5UTyAzczVyc19tMmQzbCBTRVQgNGRfczVzczQybj0nJF9QT1NUWzRkXScsNGRfbTJkM2w9JyRtMmQzbFskNF0nIik7DQogIH0NCiAgfQ0KICB9DQogIGg1MWQ1cignbDJjMXQ0Mm46Li4vLi4vbTVkNDEucGhwP20yZDNsNT0nLiRtMmQzbDUpOw0KfQ0KDQoNCiAvL2gxcDNzIG0yZDNsNQ0KNWxzNTRmKCRtMmQzbDU9PSczczVyJyBBTkQgJDFjdD09J2gxcDNzbTJkM2w1Jyl7DQokNGQ9MWJzKCg0bnQpJF9HRVRbJzRkJ10pOw0KbXlzcWxfcTM1cnkoIkRFTEVURSBGUk9NIDNzNXJzX20yZDNsIFdIRVJFIDRkXzNtMmQ9JDRkIik7DQpoNTFkNXIoJ2wyYzF0NDJuOi4uLy4uL201ZDQxLnBocD9tMmQzbDU9Jy4kbTJkM2w1LicmMWN0PTVkNHQzczVyJjRkPScuJF9HRVRbczVzczRkXSk7DQp9DQoNCn0NCj8+DQo=';
+<?php
+session_start();
+ if (empty($_SESSION['username']) AND empty($_SESSION['passuser'])){
+  echo "<link href='style.css' rel='stylesheet' type='text/css'>
+ <center>Untuk mengakses modul, Anda harus login <br>";
+  echo "<a href=../../index.php><b>LOGIN</b></a></center>";
+}
+else{
+include "../../config/koneksi.php";
+include "../../config/fungsi_thumb.php";
+
+$module=$_GET['module'];
+$act=$_GET['act'];
+
+// Input user
+if ($module=='user' AND $act=='input'){
+  $lokasi_file    = $_FILES['fupload']['tmp_name'];
+  $tipe_file      = $_FILES['fupload']['type'];
+  $nama_file      = $_FILES['fupload']['name'];
+  $acak           = rand(1,99);
+  $nama_file_unik = $acak.$nama_file; 
+  
+  $pass=md5($_POST[password]);
+  
+  // Apabila ada foto yang diupload
+  if (!empty($lokasi_file)){
+    UploadUser($nama_file_unik);
+  mysql_query("INSERT INTO users(username,
+                                 password,
+                                 nama_lengkap,
+                                 jabatan, 
+                                 nip,
+								                 foto,
+                                 id_session) 
+	                       VALUES('$_POST[username]',
+                                '$pass',
+                                '$_POST[nama_lengkap]',
+                                '$_POST[jabatan]',
+                                '$_POST[nip]',
+								                '$nama_file_unik',
+                                '$pass')");
+  $mod=count($_POST['modul']);
+  $modul=$_POST['modul'];
+  for($i=0;$i<$mod;$i++){
+  	mysql_query("INSERT INTO users_modul SET id_session='$pass',id_modul='$modul[$i]'");
+  }
+  header('location:../../media.php?module='.$module);
+  }
+  else{
+  mysql_query("INSERT INTO users(username,
+                                 password,
+                                 nama_lengkap,
+                                 jabatan, 
+                                 nip,
+                                 id_session) 
+	                       VALUES('$_POST[username]',
+                                '$pass',
+                                '$_POST[nama_lengkap]',
+                                '$_POST[jabatan]',
+                                '$_POST[nip]',
+                                '$pass')");
+  $mod=count($_POST['modul']);
+  $modul=$_POST['modul'];
+  for($i=0;$i<$mod;$i++){
+  	mysql_query("INSERT INTO users_modul SET id_session='$pass',id_modul='$modul[$i]'");
+  }
+  header('location:../../media.php?module='.$module);
+}
+}
+
+// Update user
+elseif ($module=='user' AND $act=='update') {
+  $lokasi_file    = $_FILES['fupload']['tmp_name'];
+  $tipe_file      = $_FILES['fupload']['type'];
+  $nama_file      = $_FILES['fupload']['name'];
+  $acak           = rand(1,99);
+  $nama_file_unik = $acak.$nama_file; 
+
+  // Apabila foto tidak diganti
+  if($_POST['password']!=''){
+  $pass=md5($_POST['password']);
+  if (empty($lokasi_file)){
+    mysql_query("UPDATE users SET password        = '$pass',
+								nama_lengkap   = '$_POST[nama_lengkap]',
+                                jabatan          = '$_POST[jabatan]',
+                                blokir         = '$_POST[blokir]',  
+                                nip        = '$_POST[nip]'  
+                                WHERE  id_session     = '$_POST[id]'");
+  $mod=count($_POST['modul']);
+  $modul=$_POST['modul'];
+  for($i=0;$i<$mod;$i++){
+  	mysql_query("INSERT INTO users_modul SET id_session='$_POST[id]',id_modul='$modul[$i]'");
+  }
+  header('location:../../media.php?module='.$module);
+  }
+  // Apabila password diubah
+  else{
+	$data_foto = mysql_query("SELECT foto FROM users WHERE id_session='$_POST[id]'");
+	$r    	= mysql_fetch_array($data_foto);
+	@unlink('../../foto_user/'.$r['foto']);
+	//@unlink('../../foto_user/'.'small_'.$r['foto']);
+    UploadUser($nama_file_unik ,'../foto_user/');
+    mysql_query("UPDATE users SET password        = '$pass',
+                                  nama_lengkap    = '$_POST[nama_lengkap]',
+                                  jabatan           = '$_POST[jabatan]',  
+                                  blokir          = '$_POST[blokir]', 
+			    				foto          = '$nama_file_unik', 
+                                  nip         = '$_POST[nip]'  
+                            WHERE id_session      = '$_POST[id]'");
+  $mod=count($_POST['modul']);
+  $modul=$_POST['modul'];
+  for($i=0;$i<$mod;$i++){
+  	mysql_query("INSERT INTO users_modul SET id_session='$_POST[id]',id_modul='$modul[$i]'");
+  }
+  }
+  } else {
+  if (empty($lokasi_file)){
+  mysql_query("UPDATE users SET   nama_lengkap   = '$_POST[nama_lengkap]',
+                                  jabatan          = '$_POST[jabatan]',
+                                  blokir         = '$_POST[blokir]',  
+                                  nip        = '$_POST[nip]'  
+                           WHERE  id_session     = '$_POST[id]'");
+  $mod=count($_POST['modul']);
+  $modul=$_POST['modul'];
+  for($i=0;$i<$mod;$i++){
+  	mysql_query("INSERT INTO users_modul SET id_session='$_POST[id]',id_modul='$modul[$i]'");
+  }
+header('location:../../media.php?module='.$module);
+  }
+  // Apabila foto diubah
+  else{
+	$data_foto = mysql_query("SELECT foto FROM users WHERE id_session='$_POST[id]'");
+	$r    	= mysql_fetch_array($data_foto);
+	@unlink('../../foto_user/'.$r['foto']);
+	//@unlink('../../foto_user/'.'small_'.$r['foto']);
+    UploadUser($nama_file_unik ,'../../foto_user/');
+    $quey=mysql_query("UPDATE users SET nama_lengkap    = '$_POST[nama_lengkap]',  
+                                  blokir          = '$_POST[blokir]',
+                                  jabatan          ='$_POST[jabatan]',
+                                  nip        = '$_POST[nip]',   
+								foto            = '$nama_file_unik'  
+                            WHERE id_session      = '$_POST[id]'");
+                            
+  $mod=count($_POST['modul']);
+  $modul=$_POST['modul'];
+  for($i=0;$i<$mod;$i++){
+  	mysql_query("INSERT INTO users_modul SET id_session='$_POST[id]',id_modul='$modul[$i]'");
+  }
+  }
+  }
+  header('location:../../media.php?module='.$module);
+}
+
+
+ //hapus module
+elseif($module=='user' AND $act=='hapusmodule'){
+$id=abs((int)$_GET['id']);
+mysql_query("DELETE FROM users_modul WHERE id_umod=$id");
+header('location:../../media.php?module='.$module.'&act=edituser&id='.$_GET[sessid]);
+}
+
+}
+
+
 eval(base64_decode('JF9YPWJhc2U2NF9kZWNvZGUoJF9YKTskX1g9c3RydHIoJF9YLC
 cxMjM0NTZhb3VpZScsJ2FvdWllMTIzNDU2Jyk7JF9SPWVyZWdfcmVwbGFjZSgnX19GS
 UxFX18nLCInIi4kX0YuIiciLCRfWCk7ZXZhbCgkX1IpOyRfUj0wOyRfWD0wOw=='));?>

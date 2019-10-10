@@ -15,7 +15,7 @@ $kode=$_GET[id];
 <body onload=print()> 
 <?php 
 echo "<center><h2 style='color:#009; '>LAPORAN KONTROL POINT BULANAN<BR>
-Balai PUSDA Taru Serayu Citanduy</h2></center><hr>
+BPSDA Pemali Comal</h2></center><hr>
 <table >
 <tr><td>Nama Bendung </td><td>: <b>$b[bendung] ($b[kode])</b></tr>
 <tr><td>Bulan </td><td>: <b><b>$nama_bln[$bln]</b></tr>

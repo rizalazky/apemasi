@@ -1,0 +1,292 @@
+.nama_saluran{
+    font-size:12px;
+    font-weight: bold;
+    width:fit-content;
+    position: absolute;
+    color:#4757e2;
+}
+#nama_saluran3{
+    left:210px;
+    top:100px;
+}
+#nama_saluran2{
+    left:450px;
+    top:100px;
+}
+#nama_saluran1{
+    left:660px;
+    top:100px;
+}
+#nama_saluran4{
+    left:600px;
+    top:280px;
+    writing-mode: vertical-rl;
+}
+#nama_saluran5{
+    left:590px;
+    top:130px;
+    font-weight: unset;
+    font-size: 11px;
+    writing-mode: vertical-rl;
+}
+#nama_saluran6{
+    left:210px;
+    top:500px;
+}
+#nama_saluran7{
+    left:330px;
+    top:580px;
+    writing-mode: vertical-rl;
+}
+#nama_saluran8{
+    left:330px;
+    top:760px;
+    writing-mode: vertical-rl;
+
+}
+#nama_saluran9{
+    left:410px;
+    top:710px;
+}
+
+#nama_saluran10{
+    left:200px;
+    top:710px;
+}
+/* table keterangan */
+#tbl-ket{
+    text-align:left;
+	position:absolute;
+	margin:0;
+	table-layout: fixed;
+	overflow: scroll;
+    top:500px;
+    left:60px;
+    font-weight: bold;
+}
+
+#tbl-ket td{
+    height: 30px;
+}
+
+.ond-merah{
+    background: red;
+    height: 20px;
+    width:20px;
+    border-radius: 50%;
+}
+
+.ond-biru{
+    background:#00F7FF;
+    height: 20px;
+    width:20px;
+    border-radius: 50%;
+}
+
+
+/* tanda panah */
+.panah{
+    position: relative;
+}
+
+#panah-1{
+    top:-11px;
+    left:70px;
+}
+
+#panah-2{
+    top:-10px;
+    left:125px;
+}
+
+#panah-3{
+    top:-10px;
+    left:30px;
+}
+
+#panah-4{
+    top:-10px;
+    left:20px;
+}
+#panah-5{
+    top:-11px;
+    left:410px;
+    color: red;
+}
+#panah-6{
+    top:-11px;
+    left:245px;
+}
+
+
+
+
+@media (min-width: 1200px){
+    .nama_saluran{
+        font-size:12px;
+        font-weight: bold;
+        width:fit-content;
+        position: absolute;
+        color:#4757e2;
+    }
+    #nama_saluran3{
+        left:210px;
+        top:100px;
+    }
+    #nama_saluran2{
+        left:450px;
+        top:100px;
+    }
+    #nama_saluran1{
+        left:660px;
+        top:100px;
+    }
+    #nama_saluran4{
+        left:200px;
+        top:280px;
+        writing-mode: vertical-rl;
+    }
+    #nama_saluran5{
+        left:590px;
+        top:130px;
+        font-weight: unset;
+        font-size: 11px;
+        writing-mode: vertical-rl;
+    }
+    #nama_saluran6{
+        left:210px;
+        top:500px;
+    }
+    #nama_saluran7{
+        left:330px;
+        top:580px;
+        writing-mode: vertical-rl;
+    }
+    #nama_saluran8{
+        left:330px;
+        top:760px;
+        writing-mode: vertical-rl;
+    
+    }
+    #nama_saluran9{
+        left:410px;
+        top:710px;
+    }
+    #nama_saluran10{
+        left:200px;
+        top:710px;
+    }
+}
+@media (min-width: 992px){
+    .nama_saluran{
+        font-size:12px;
+        font-weight: bold;
+        width:fit-content;
+        position: absolute;
+        color:#4757e2;
+    }
+    #nama_saluran3{
+        left:210px;
+        top:100px;
+    }
+    #nama_saluran2{
+        left:450px;
+        top:100px;
+    }
+    #nama_saluran1{
+        left:660px;
+        top:100px;
+    }
+    #nama_saluran4{
+        left:200px;
+        top:280px;
+        writing-mode: vertical-rl;
+    }
+    #nama_saluran5{
+        left:590px;
+        top:130px;
+        font-weight: unset;
+        font-size: 11px;
+        writing-mode: vertical-rl;
+    }
+    #nama_saluran6{
+        left:210px;
+        top:500px;
+    }
+    #nama_saluran7{
+        left:330px;
+        top:580px;
+        writing-mode: vertical-rl;
+    }
+    #nama_saluran8{
+        left:330px;
+        top:760px;
+        writing-mode: vertical-rl;
+    
+    }
+    #nama_saluran9{
+        left:410px;
+        top:710px;
+    }
+    #nama_saluran10{
+        left:200px;
+        top:710px;
+    }
+}
+@media (min-width: 400px){
+
+    .nama_saluran{
+        font-size:12px;
+        font-weight: bold;
+        width:fit-content;
+        position: absolute;
+        color:#4757e2;
+    }
+    #nama_saluran3{
+        left:225px;
+        top:100px;
+    }
+    #nama_saluran2{
+        left:450px;
+        top:100px;
+    }
+    #nama_saluran1{
+        left:650px;
+        top:100px;
+    }
+    #nama_saluran4{
+        left:590px;
+        top:280px;
+        writing-mode: vertical-rl;
+    }
+    #nama_saluran5{
+        left:340px;
+        top:160px;
+        font-weight: unset;
+        font-size: 11px;
+        writing-mode: vertical-rl;
+    }
+    #nama_saluran6{
+        left:480px;
+        top:500px;
+    }
+    #nama_saluran7{
+        left:590px;
+        top:580px;
+        writing-mode: vertical-rl;
+    }
+    #nama_saluran8{
+        left:590px;
+        top:760px;
+        writing-mode: vertical-rl;
+    
+    }
+    #nama_saluran9{
+        left:650px;
+        top:710px;
+    }
+    #nama_saluran10{
+        left:480px;
+        top:710px;
+    }
+}

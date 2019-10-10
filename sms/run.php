@@ -1,7 +1,7 @@
 <?php
 include '../config/koneksi.php';
 include 'function.php';
-$psda  = "~APEMASI Sercit~"; 
+$psda  = "~APEMASI Balai PSDA Pemali Comal~"; 
 
 $hasil = mysql_query("SELECT * FROM inbox WHERE Processed = 'false'");
   while ($data = mysql_fetch_array($hasil)){
@@ -35,7 +35,7 @@ $hasil = mysql_query("SELECT * FROM inbox WHERE Processed = 'false'");
                  mysql_query("INSERT INTO elevasi(kode,bendung,elevasi,debit,Qka,Qki,tgl,jam,status,petugas) VALUES('$kode','$bendung','$elevasi','$debit','$Qka','$Qki','$tanggal','$jam','$status','$petugas')" );
                       
       //koneksi ke web hosting 
-      $auth = md5("sercit2015");                  
+      $auth = md5("pemalicomal");                  
       $curl = curl_init();
       curl_setopt($curl, CURLOPT_URL,$web."/datahosting.php");
       curl_setopt($curl, CURLOPT_POST, 1);
